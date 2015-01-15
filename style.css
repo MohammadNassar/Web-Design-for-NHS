@@ -16,28 +16,31 @@ position: relative;
 top: 0px;
 left: 0px;
 width: 100%;
-height: 80px;
+height: 120px;
 background-color: yellowgreen;
 }
+.headerlogo1{position: absolute; top: 20px; left: 165px; background: url('images/header2.png') no-repeat; width: 700px; height: 50px;}
+.headerlogo2{position: absolute; top: 15px; left: 10px; background: url('images/bromley.png') no-repeat; width: 120px; height: 110px;}
+.headerlogo3{position: absolute; top: 20px; right: 10px; background: url('images/nhs.jpg') no-repeat; width: 120px; height: 80px;}
 
 #topnav{
 position: relative;
 top: 0px;
 left: 0px;
 width: 100%;
-height: 42px;
-background-color: brown;
+height: 40px;
+background-image: url('images/button2.png');;
 }
 .topnavholder{position: relative; width: 80%; height: 100%; margin-left: 200px; 
 				background-color: #; z-index: 1;}
 .topnavholder ul{list-style: none; margin: 0px; padding: 0px;}
-.topnavholder li{float: left; width: 100px; background-color: chocolate; border: 1px solid white; 
+.topnavholder li{float: left; width: 100px; background-image: url('images/button1.png');; /* border: 1px solid white; */ 
 				//border-top: 1px solid white; text-align: center; position: relative; height: 40px; 
 				line-height: 40px;}
 .topnavholder li ul li{float: none; width: 100px; text-align: left; padding-left: 5px;}
 .topnavholder li ul{position: absolute; visibility: hidden; top: 40px; left: 0px;}
 .topnavholder li:hover ul{visibility: visible;}
-.topnavholder li:hover{background-color: orange;}
+.topnavholder li:hover{background-image: url('images/button2.png');}
 .topnavholder a{text-decoration: none; color: white;}
 
 /* #innerholder{position: relative;top: 0px;left: 0px;width: 100%;min-height: 100%;} */
@@ -56,19 +59,19 @@ position: absolute;
 top: 0px;
 left: 0px;
 width: 120px;
-background-color: yellow;
+background-color: ;
 }
 .leftnavholder{position: relative; width: 80%; height: 100%; margin-left: 0px; 
 				background-color: #; z-index: 1;}
 .leftnavholder ul{list-style: none; margin: 0px; padding: 0px;}
-.leftnavholder li{float: left; width: 100px; background-color: chocolate; border: 1px solid white; 
+.leftnavholder li{float: left; width: 100px; background-image: url('images/button1.png'); border: 1px solid white; 
 				//border-top: 1px solid white; text-align: center; position: relative; height: 40px; 
 				line-height: 40px;}
 .leftnavholder li ul li{float: none; width: 100px; text-align: left; padding-left: 5px; margin-left: 100px; 
 					margin-top: -10px;}
 .leftnavholder li ul{position: absolute; visibility: hidden; top: 40px; left: 0px;}
 .leftnavholder li:hover ul{visibility: visible;}
-.leftnavholder li:hover{background-color: orange;}
+.leftnavholder li:hover{background-image: url('images/button2.png');}
 .leftnavholder a{text-decoration: none; color: white;}
 
 #footer{
