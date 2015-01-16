@@ -1,5 +1,9 @@
 
-html, body{background-color: pink;}
+html, body{
+background-color: pink;
+margin-right: auto;
+margin-left: auto;
+}
 
 #holder{
 position: relative;
@@ -8,7 +12,9 @@ width: 900px;
 min-height: 100%;
 margin-right: auto;
 margin-left: auto;
-background-color: aqua;
+background-color: pink;
+border: 5px solid white;
+border-radius: 10px;
 }
 
 #header{
@@ -17,7 +23,7 @@ top: 0px;
 left: 0px;
 width: 100%;
 height: 120px;
-background-color: yellowgreen;
+background-color: rgba(255, 255, 255, 0.5);
 }
 .headerlogo1{position: absolute; top: 20px; left: 165px; background: url('images/header2.png') no-repeat; width: 700px; height: 50px;}
 .headerlogo2{position: absolute; top: 15px; left: 10px; background: url('images/bromley.png') no-repeat; width: 120px; height: 110px;}
@@ -43,15 +49,17 @@ background-image: url('images/button2.png');;
 .topnavholder li:hover{background-image: url('images/button2.png');}
 .topnavholder a{text-decoration: none; color: white;}
 
-/* #innerholder{position: relative;top: 0px;left: 0px;width: 100%;min-height: 100%;} */
+#bodyholder{position: relative;top: 0px;left: 0px;width: 100%;min-height: 100%;background-color: ;}
 
 #content{
 position: relative;
-top: 0px;
-right: 0px;
 width: 80%;
+min-height: 300px;
+margin-right: 0px;
+margin-left: auto;
 text-align: left;
-padding: 100px 150px;
+padding: 50px 35px;
+background-color: ;
 }
 
 #leftnav{
@@ -59,7 +67,6 @@ position: absolute;
 top: 0px;
 left: 0px;
 width: 120px;
-background-color: ;
 }
 .leftnavholder{position: relative; width: 80%; height: 100%; margin-left: 0px; 
 				background-color: #; z-index: 1;}
@@ -75,13 +82,14 @@ background-color: ;
 .leftnavholder a{text-decoration: none; color: white;}
 
 #footer{
-position: absolute;
+position: relative;
 float: both;
 bottom: 0px;
 left: 0px;
 width: 100%;
-height: 40px;
-background-color: grey;
+min-height: 40px;
+background-color: rgba(255, 255, 255, 0.5);
+text-align: center;
 }
 
 #outerhomecontent{
