@@ -4,6 +4,8 @@ background-color: pink;
 margin-right: auto;
 margin-left: auto;
 }
+/* * a{}
+* ul {list-style-image: url('');} */
 
 #holder{
 position: relative;
@@ -15,6 +17,8 @@ margin-left: auto;
 background-color: pink;
 border: 5px solid white;
 border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
 }
 
 #header{
@@ -29,7 +33,7 @@ background-color: rgba(255, 255, 255, 0.5);
 .headerlogo2{position: absolute; top: 15px; left: 10px; background: url('images/bromley.png') no-repeat; width: 120px; height: 110px;}
 .headerlogo3{position: absolute; top: 20px; right: 10px; background: url('images/nhs.jpg') no-repeat; width: 120px; height: 80px;}
 
-#topnav{
+#topbar{
 position: relative;
 top: 0px;
 left: 0px;
@@ -37,19 +41,26 @@ width: 100%;
 height: 40px;
 background-image: url('images/button2.png');;
 }
-.topnavholder{position: relative; width: 80%; height: 100%; margin-left: 200px; 
+.topnav{position: relative; width: 80%; height: 100%; margin-left: 200px; 
 				background-color: #; z-index: 1;}
-.topnavholder ul{list-style: none; margin: 0px; padding: 0px;}
-.topnavholder li{float: left; width: 100px; background-image: url('images/button1.png');; /* border: 1px solid white; */ 
+.topnav ul{list-style: none; margin: 0px; padding: 0px;}
+.topnav li{float: left; width: 100px; background-image: url('images/button1.png');; /* border: 1px solid white; */ 
 				//border-top: 1px solid white; text-align: center; position: relative; height: 40px; 
 				line-height: 40px;}
-.topnavholder li ul li{float: none; width: 100px; text-align: left; padding-left: 5px;}
-.topnavholder li ul{position: absolute; visibility: hidden; top: 40px; left: 0px;}
-.topnavholder li:hover ul{visibility: visible;}
-.topnavholder li:hover{background-image: url('images/button2.png');}
-.topnavholder a{text-decoration: none; color: white;}
+.topnav li ul li{float: none; width: 100px; text-align: left; padding-left: 5px; margin-top: 0px;}
+.topnav li ul{position: relative; visibility: hidden; top: 0px; left: 0px;}
+.topnav li:hover ul{visibility: visible;}
+.topnav li:hover{background-image: url('images/button2.png');}
+.topnav a{text-decoration: none; color: white;}
 
-#bodyholder{position: relative;top: 0px;left: 0px;width: 100%;min-height: 100%;background-color: ;}
+#bodyholder{
+position: relative;
+top: 0px;
+left: 0px;
+width: 100%;
+min-height: 100%;
+background-color: ;
+}
 
 #content{
 position: relative;
@@ -62,34 +73,37 @@ padding: 50px 35px;
 background-color: ;
 }
 
-#leftnav{
+#leftbar{
 position: absolute;
 top: 0px;
 left: 0px;
 width: 120px;
 }
-.leftnavholder{position: relative; width: 80%; height: 100%; margin-left: 0px; 
+.leftnav{position: relative; width: 80%; height: 100%; margin-left: 0px; 
 				background-color: #; z-index: 1;}
-.leftnavholder ul{list-style: none; margin: 0px; padding: 0px;}
-.leftnavholder li{float: left; width: 100px; background-image: url('images/button1.png'); border: 1px solid white; 
-				//border-top: 1px solid white; text-align: center; position: relative; height: 40px; 
+.leftnav ul{list-style: none; margin: 0px; padding: 0px;}
+.leftnav li{float: left; width: 100px; background-image: url('images/button1.png'); //border: 1px solid white; 
+				border-top: 1px solid white; text-align: center; position: relative; height: 40px; 
 				line-height: 40px;}
-.leftnavholder li ul li{float: none; width: 100px; text-align: left; padding-left: 5px; margin-left: 100px; 
-					margin-top: -10px;}
-.leftnavholder li ul{position: absolute; visibility: hidden; top: 40px; left: 0px;}
-.leftnavholder li:hover ul{visibility: visible;}
-.leftnavholder li:hover{background-image: url('images/button2.png');}
-.leftnavholder a{text-decoration: none; color: white;}
+.leftnav li ul li{float: none; width: 100px; text-align: left; padding-left: 5px; margin-left: 100px; 
+					margin-top: 0px;}
+.leftnav li ul{position: absolute; visibility: hidden; top: 0px; left: 2px;}
+.leftnav li:hover ul{visibility: visible;}
+.leftnav li:hover{background-image: url('images/button2.png');}
+.leftnav a{text-decoration: none; color: white;}
 
 #footer{
 position: relative;
-float: both;
+clear: both;
 bottom: 0px;
-left: 0px;
+margin-top: 0px;
+margin-right: auto;
+margin-left: auto;
 width: 100%;
 min-height: 40px;
 background-color: rgba(255, 255, 255, 0.5);
 text-align: center;
+line-height: 40px;
 }
 
 #outerhomecontent{
