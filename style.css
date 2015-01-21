@@ -1,6 +1,6 @@
 
 html, body{
-background-color: pink;
+background-image: url('images/backbg.jpg');
 margin-right: auto;
 margin-left: auto;
 }
@@ -29,9 +29,9 @@ width: 100%;
 height: 120px;
 background-color: rgba(255, 255, 255, 0.5);
 }
-.headerlogo1{position: absolute; top: 20px; left: 165px; background: url('images/header2.png') no-repeat; width: 700px; height: 50px;}
-.headerlogo2{position: absolute; top: 15px; left: 10px; background: url('images/bromley.png') no-repeat; width: 120px; height: 110px;}
-.headerlogo3{position: absolute; top: 20px; right: 10px; background: url('images/nhs.jpg') no-repeat; width: 120px; height: 80px;}
+.headerlogo1{position: absolute; top: 20px; left: 165px; width: 700px; height: 50px;}
+.headerlogo2{position: absolute; top: 15px; left: 10px; width: 120px; height: 110px;}
+.headerlogo3{position: absolute; top: 20px; right: 10px; width: 120px; height: 80px;}
 
 #topbar{
 position: relative;
@@ -44,13 +44,13 @@ background-image: url('images/button2.png');;
 .topnav{position: relative; width: 80%; height: 100%; margin-left: 200px; 
 				background-color: #; z-index: 1;}
 .topnav ul{list-style: none; margin: 0px; padding: 0px;}
-.topnav li{float: left; width: 100px; background-image: url('images/button1.png');; /* border: 1px solid white; */ 
+.topnav li{float: left; width: 100px; background-image: url('images/button_1.png');; /* border: 1px solid white; */ 
 				//border-top: 1px solid white; text-align: center; position: relative; height: 40px; 
 				line-height: 40px;}
-.topnav li ul li{float: none; width: 100px; text-align: left; padding-left: 5px; margin-top: 0px;}
+.topnav li ul li{float: none; width: 100px; text-align: left; margin-top: 0px; text-align:center;}
 .topnav li ul{position: relative; visibility: hidden; top: 0px; left: 0px;}
 .topnav li:hover ul{visibility: visible;}
-.topnav li:hover{background-image: url('images/button2.png');}
+.topnav li:hover{background-image: url('images/button_2.png');}
 .topnav a{text-decoration: none; color: white;}
 
 #bodyholder{
@@ -59,7 +59,7 @@ top: 0px;
 left: 0px;
 width: 100%;
 min-height: 100%;
-background-color: ;
+background-color: white;
 }
 
 #content{
@@ -112,5 +112,5 @@ top: 80px;
 right: 0px;
 width: 100%;
 height: 500px;
-background-color: aqua;
+background-color: aqCa;
 }
