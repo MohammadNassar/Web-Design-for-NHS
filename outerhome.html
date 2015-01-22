@@ -5,6 +5,12 @@
 		
 		<script type="text/javascript">
 			
+			function slide1() {
+				document.getElementById('slideimage').src="images/slideimage1.png";
+				document.getElementById('slideimage').href="http://www.google.com";
+			}
+			function slide2() {}
+			function slide3() {}
 		</script>
 		
 	</head>
@@ -18,7 +24,7 @@
 				</div> <!-- Close slideimage div -->
 			
 				<div id="access1">
-					<a href="#"> <img src="images/access1.png" /> </a>
+					<a href="#"> <img src="images/access1.png" onMouseOver="javascript:slide1();" /> </a>
 				</div> <!-- Close access1 div -->
 				
 				<div id="access2">
