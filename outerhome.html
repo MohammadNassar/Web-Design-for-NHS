@@ -1,16 +1,40 @@
-<html>
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
 	<head>
 		<link type="text/css" href="outerstyle.css" rel="stylesheet"></link>
 		<title>My page</title>
 		
 		<script type="text/javascript">
+			var image1 = "images/slideimage1.png";
+			var image2 = "images/slideimage2.png";
+			var image3 = "images/slideimage3.png";
+			var welcomeimage = "images/slideimage.png";
+			
+			var link1 = "http://www.google.com";
+			var link2 = "http://www.amrkhaled.net";
+			var link3 = "http://www.bromleybybowhealthcentre.nhs.uk/";
+			var welcomelink = "";
 			
 			function slide1() {
-				document.getElementById('slideimage').src="images/slideimage1.png";
-				document.getElementById('slideimage').href="http://www.google.com";
+				document.getElementById("slideimage").src = image1;
+				document.getElementById("slideimagelink").href = link1;
+				document.getElementById("accesslink1").href = link1;
 			}
-			function slide2() {}
-			function slide3() {}
+			function slide2() {
+				document.getElementById("slideimage").src = image2;
+				document.getElementById("slideimagelink").href = link2;
+				document.getElementById("accesslink2").href = link2;
+			}
+			function slide3() {
+				document.getElementById("slideimage").src = image3;
+				document.getElementById("slideimagelink").href = link3;
+				document.getElementById("accesslink3").href = link3;
+			}
+			function mouseout() {
+				//document.getElementById("slideimage").src = welcomeimage;
+				//document.getElementById("slideimagelink").href = welcomelink;
+			}
 		</script>
 		
 	</head>
@@ -19,21 +43,25 @@
 		
 			<div id="topimage">
 			
-				<div id="slideimage">
-					<a href="#"> <img src="images/slideimage.png" /> </a>
+				<div id="slideimageholder">
+					<a id="slideimagelink"> <img id="slideimage" src="images/slideimage.png" /> </a>
 				</div> <!-- Close slideimage div -->
 			
-				<div id="access1">
-					<a href="#"> <img src="images/access1.png" onMouseOver="javascript:slide1();" /> </a>
-				</div> <!-- Close access1 div -->
+				<a href="#" id="accesslink1">
+					<div id="access1" onMouseOver="slide1();" onMouseOut="mouseout();">
+					</div> <!-- Close access1 div -->
+				</a>
 				
-				<div id="access2">
-					<a href="#"> <img src="images/access2.png" /> </a>
-				</div> <!-- Close access2 div -->
+				<a href="#" id="accesslink2">
+					<div id="access2" src="images/access2.png" onMouseOver="slide2();" onMouseOut="mouseout();" >
+					</div> <!-- Close access2 div -->
+				</a>
 				
-				<div id="access3">
-					<a href="#"> <img src="images/access3.png" /> </a>
-				</div> <!-- Close access3 div -->
+				<a href="#" id="accesslink3" onMouseOver="slide3();" onMouseOut="mouseout();" >
+					<div id="access3">
+					</div> <!-- Close access3 div -->
+				</a>
+				
 			</div> <!-- Close topimage div -->
 			
 		</div> <!-- Close outerholder div -->
