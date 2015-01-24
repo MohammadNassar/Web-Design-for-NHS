@@ -1,8 +1,9 @@
 
-html, body{
-background-image: url('images/backbg.jpg');
+body{
+background-image: url('images/bg.png');
 margin-right: auto;
 margin-left: auto;
+margin-top: 1px;
 }
 /* * a{}
 * ul {list-style-image: url('');} */
@@ -15,7 +16,7 @@ min-height: 100%;
 margin-right: auto;
 margin-left: auto;
 background-color: pink;
-border: 5px solid white;
+border: 5px solid pink;
 border-radius: 10px;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
@@ -39,18 +40,19 @@ top: 0px;
 left: 0px;
 width: 100%;
 height: 40px;
-background-image: url('images/button2.png');;
+background-image: url('images/button1.png');;
 }
-.topnav{position: relative; width: 80%; height: 100%; margin-left: 200px; 
+.topnav{position: relative; width: 80%; height: 100%; margin-left: 180px; 
 				background-color: #; z-index: 1;}
 .topnav ul{list-style: none; margin: 0px; padding: 0px;}
-.topnav li{float: left; width: 100px; background-image: url('images/button_1.png');; /* border: 1px solid white; */ 
+.topnav li{float: left; min-width: 100px; background-image: url('images/button2.png');; /* border: 1px solid white; */ 
 				//border-top: 1px solid white; text-align: center; position: relative; height: 40px; 
 				line-height: 40px;}
 .topnav li ul li{float: none; width: 100px; text-align: left; margin-top: 0px; text-align:center;}
 .topnav li ul{position: relative; visibility: hidden; top: 0px; left: 0px;}
 .topnav li:hover ul{visibility: visible;}
-.topnav li:hover{background-image: url('images/button_2.png');}
+.topnav li:hover{background-image: url('images/button3.png');}
+.topnav li:active{color: aqua;}
 .topnav a{text-decoration: none; color: white;}
 
 #bodyholder{
@@ -82,14 +84,15 @@ width: 120px;
 .leftnav{position: relative; width: 80%; height: 100%; margin-left: 0px; 
 				background-color: #; z-index: 1;}
 .leftnav ul{list-style: none; margin: 0px; padding: 0px;}
-.leftnav li{float: left; width: 100px; background-image: url('images/button1.png'); //border: 1px solid white; 
-				border-top: 1px solid white; text-align: center; position: relative; height: 40px; 
-				line-height: 40px;}
+.leftnav li{float: left; width: 100px; height: 30px; background-image: url('images/buttonleft2.png'); //border: 1px solid white; 
+				border-top: 1px solid white; text-align: center; position: relative; 
+				line-height: 30px;}
 .leftnav li ul li{float: none; width: 100px; text-align: left; padding-left: 5px; margin-left: 100px; 
 					margin-top: 0px;}
 .leftnav li ul{position: absolute; visibility: hidden; top: 0px; left: 2px;}
 .leftnav li:hover ul{visibility: visible;}
-.leftnav li:hover{background-image: url('images/button2.png');}
+.leftnav li:hover{background-image: url('images/buttonleft1.png');}
+.leftnav li:active{color: aqua;}
 .leftnav a{text-decoration: none; color: white;}
 
 #footer{

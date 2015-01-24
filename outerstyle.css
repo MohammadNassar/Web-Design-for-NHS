@@ -1,8 +1,9 @@
 
-html, body{
+body{
 background: silver;
 margin-right: auto;
 margin-left: auto;
+margin-top: 1px;
 }
 /* * a{}
 * ul {list-style-image: url('');} */
@@ -10,8 +11,8 @@ margin-left: auto;
 #outerholder{
 position: relative;
 top: 0px;
-width: 900px;
-height: 650px;
+width: 710px;
+height: 600px;
 margin-right: auto;
 margin-left: auto;
 background: pink;
@@ -22,6 +23,8 @@ position: relative;
 top: 0px;
 width: 700px;
 height: 500px;
+margin-right: auto;
+margin-left: auto;
 background: url('images/intro2.png') no-repeat;
 left: 50%;
 margin-left: -350px;
@@ -31,29 +34,29 @@ z-index: 1;
 position: absolute;
 top: 415px;
 left: 82px;
-width: 162px;
-height: 122px;
+width: 154px;
+height: 109px;
 background: url('images/access1.png') no-repeat;
-//background-color: red;
+/* background-color: red; */
 }
 #access2{
 position: absolute;
 top: 457px;
 left: 280px;
-width: 164px;
-height: 105px;
+width: 154px;
+height: 97px;
 background: url('images/access2.png') no-repeat;
-//background-color: red;
+/* background-color: red; */
 }
 
 #access3{
 position: absolute;
 top: 414px;
 left: 492px;
-width: 164px;
-height: 122px;
+width: 154px;
+height: 109px;
 background: url('images/access3.png') no-repeat;
-//background-color: red;
+/* background-color: red; */
 }
 
 #slideimage{
