@@ -85,14 +85,14 @@ top: 0px;
 right: 10px;
 width: 133px;
 min-height: 300px;
-text-align: left;
+text-align: center;
 padding: 50px 10px;
 background-color: ;
 }
 
 #leftbar{
 position: absolute;
-top: 5px;
+top: 50px;
 left: 10px;
 width: 120px;
 }
