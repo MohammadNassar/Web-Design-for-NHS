@@ -44,12 +44,12 @@ top: 10px;
 left: 0px;
 width: 100%;
 height: 44px;
-//background-image: url('images/button1.png');
+/* background-image: url('images/button1.png'); */
 }
 .topnav{position: relative; width: 80%; height: 100%; margin-left: 140px; 
 				background-color: #; z-index: 1;}
 .topnav ul{list-style: none; margin: 0px; padding: 0px;}
-.topnav li{float: left; min-width: 100px; background-image: url('images/buttonleft1.png'); padding: 0px 5px; /* border: 1px solid white; */ 
+.topnav li{float: left; min-width: 100px; background-image: url('images/buttonleft1.png'); padding: 0px 5px; 
 				border: 1px solid grey; border-radius: 5px; text-align: center; position: relative; height: 30px; 
 				line-height: 30px;}
 .topnav li ul li{float: none; width: 100px;  padding: 0px 5px; text-align: left; margin-top: 0px; text-align:center;}
@@ -100,7 +100,7 @@ width: 120px;
 				background-color: #; z-index: 1;}
 .leftnav ul{list-style: none; margin: 0px; padding: 0px;}
 .leftnav li{float: left; width: 100px; height: 30px; background-image: url('images/buttonleft1.png'); 
-			border: 1px solid grey; //border-top: 1px solid white; border-radius: 5px; text-align: center; position: relative; 
+			border: 1px solid grey; border-radius: 5px; text-align: center; position: relative; 
 				line-height: 30px;}
 .leftnav li ul li{float: none; width: 100px; text-align: left; padding-left: 5px; margin-left: 100px; 
 					margin-top: 0px;}

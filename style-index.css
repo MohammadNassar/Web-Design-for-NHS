@@ -1,31 +1,46 @@
 
 body{
-background: silver;
+background: url('images/bg.png');
 margin-right: auto;
 margin-left: auto;
 margin-top: 1px;
 }
-/* * a{}
-* ul {list-style-image: url('');} */
+
+*{font-family: calibri; border: none;}
+
+a{cursor: pointer;}
 
 #outerholder{
 position: relative;
 top: 0px;
-width: 710px;
+width: 800px;
 height: 600px;
 margin-right: auto;
 margin-left: auto;
-background: pink;
+background: coral;
+border-radius: 20px;
+}
+.title1{position: absolute; top: 20px; left: 115px; width: 700px; height: 50px;}
+.logo{position: absolute; top: 15px; left: 10px; width: 120px; height: 110px;}
+.nhslogo{position: absolute; top: 20px; right: 10px; width: 120px; height: 80px;}
+
+#loader{
+position: absolute;
+background: url('images/loader.gif');
+width: 20px;
+height: 20px;
+left: 340px;
+top: 350px;
 }
 
 #topimage{
 position: relative;
-top: 0px;
+top: 30px;
 width: 700px;
 height: 500px;
 margin-right: auto;
 margin-left: auto;
-//background: url('images/intro2.png') no-repeat;
+/* background: url('images/intro2.png') no-repeat; */
 left: 50%;
 margin-left: -350px;
 z-index: 1;
@@ -33,20 +48,20 @@ z-index: 1;
 #access1{
 position: absolute;
 top: 415px;
-left: 82px;
+left: 70px;
 width: 200px;
-height: 109px;
+height: 70px;
 background: url('images/titles/standrews.png') no-repeat;
-/* background-color: red; */
+background-color: rgba(255, 255, 255, 0.1);
 }
 #access2{
 position: absolute;
 top: 457px;
 left: 280px;
 width: 164px;
-height: 97px;
+height: 50px;
 background: url('images/titles/xxplace.png') no-repeat;
-/* background-color: red; */
+background-color: rgba(255, 255, 255, 0.1);
 }
 
 #access3{
@@ -54,15 +69,78 @@ position: absolute;
 top: 414px;
 left: 492px;
 width: 160px;
-height: 109px;
+height: 70px;
 background: url('images/titles/bbb.png') no-repeat;
-/* background-color: red; */
+background-color: rgba(255, 255, 255, 0.1);
 }
 
 #slideimage{
 position: absolute;
 top: 60px;
 left: 150px;
-//width: 550px;
-//height: 250px;
 }
+
+#slideimagelinkinner1{
+position: absolute;
+left: 200px;
+top: 120px;
+width: 250px;
+height: 250px;
+background-image: url('images/link.png');
+}
+
+#slideimagelinkinner2{
+position: absolute;
+left: 180px;
+top: 160px;
+width: 280px;
+height: 160px;
+background-image: url('images/link.png');
+text-align: center;
+}
+
+#text{
+position: absolute;
+left: 180px;
+top: 160px;
+width: 280px;
+height: 160px;
+background-image: url('images/link.png');
+text-align: center;
+}
+
+#about{
+position: absolute;
+left: 465px;
+top: 140px;
+width: 100px;
+height: 30px;
+}
+
+#contact{
+position: absolute;
+left: 487px;
+top: 200px;
+width: 100px;
+height: 30px;
+}
+
+#checker{
+position: absolute;
+left: 492px;
+top: 250px;
+width: 100px;
+height: 30px;
+}
+
+#careers{
+position: absolute;
+left: 470px;
+top: 310px;
+width: 100px;
+height: 30px;
+}
+
+#sidelinks a{font-size: 14pt; color: white; text-shadow: 0px 1px grey; text-decoration: none;}
+#sidelinks a:hover{text-decoration: underline; color: coral;}
+

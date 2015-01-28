@@ -16,24 +16,45 @@
 			var link3 = "http://www.bromleybybowhealthcentre.nhs.uk/";
 			var welcomelink = "";
 			
+			var text1 = "Info about About us";
+			var text2 = "Info about Contact us";
+			var text3 = "Info about Symptom Checker";
+			var text4 = "Info about Careers";
+			
 			function slide1() {
 				document.getElementById("slideimage").src = image1;
 				document.getElementById("slideimagelink").href = link1;
 				document.getElementById("accesslink1").href = link1;
+				document.getElementById("text").innerHTML = "";
 			}
 			function slide2() {
 				document.getElementById("slideimage").src = image2;
 				document.getElementById("slideimagelink").href = link2;
 				document.getElementById("accesslink2").href = link2;
+				document.getElementById("text").innerHTML = "";
 			}
 			function slide3() {
 				document.getElementById("slideimage").src = image3;
 				document.getElementById("slideimagelink").href = link3;
 				document.getElementById("accesslink3").href = link3;
+				document.getElementById("text").innerHTML = "";
 			}
 			function mouseout() {
 				//document.getElementById("slideimage").src = welcomeimage;
 				//document.getElementById("slideimagelink").href = welcomelink;
+				//document.getElementById("text").innerHTML = "";
+			}
+			function showinfo(element) {
+				document.getElementById("slideimage").src = "images/circletext.png";
+				document.getElementById("slideimagelink").href = "#";
+				if (element == "about") {
+				document.getElementById("text").innerHTML = text1;}
+				if (element == "contact") {
+				document.getElementById("text").innerHTML = text2;}
+				if (element == "checker") {
+				document.getElementById("text").innerHTML = text3;}
+				if (element == "careers") {
+				document.getElementById("text").innerHTML = text4;}
 			}
 		</script>
 		
@@ -41,10 +62,26 @@
 	<body>
 		<div id="outerholder">
 		
-			<div id="topimage">
+			<div class="title1"><img src="images/title1.png" width="540" height="45" alt="Logo2" /></div>
+			<div class="logo"><img src="images/logo.png" width="100" height="100" alt="Logo2" /></div>
+			<div class="nhslogo"><img src="images/nhs.png" width="120" height="50" alt="Logo3" /></div>
 			
+			<div id="loader"></div>
+			
+			<div id="topimage">
 				<div id="slideimageholder">
-					<a id="slideimagelink"> <img id="slideimage" src="images/circle.png" /> </a>
+					 <img id="slideimage" src="images/circle.png" />
+					 <div id="text"></div>
+					 <a id="slideimagelink">
+						<div id="slideimagelinkinner1"> </div>
+						<div id="slideimagelinkinner2"> </div>
+					 </a>
+					 <div id="sidelinks">
+						<a href="#"> <div id="about" onMouseOver="showinfo('about');">About us</div> </a>
+						<a href="#"> <div id="contact" onMouseOver="showinfo('contact');">Contact us</div> </a>
+						<a href="#"> <div id="checker" onMouseOver="showinfo('checker');">Symptom Checker</div> </a>
+						<a href="#"> <div id="careers" onMouseOver="showinfo('careers');">Careers</div> </a>
+					</div>
 				</div> <!-- Close slideimage div -->
 			
 				<a href="#" id="accesslink1">
