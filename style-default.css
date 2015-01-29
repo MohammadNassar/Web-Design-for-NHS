@@ -44,18 +44,18 @@ top: 10px;
 left: 0px;
 width: 100%;
 height: 44px;
-/* background-image: url('images/button1.png'); */
+background-image: url('images/buttontop1.png');
 }
-.topnav{position: relative; width: 80%; height: 100%; margin-left: 140px; 
-				background-color: #; z-index: 1;}
+.topnav{position: relative; width: 80%; height: 100%; margin-left: 160px; 
+				background-color: #; z-index: 10;}
 .topnav ul{list-style: none; margin: 0px; padding: 0px;}
-.topnav li{float: left; min-width: 100px; background-image: url('images/buttonleft1.png'); padding: 0px 5px; 
-				border: 1px solid grey; border-radius: 5px; text-align: center; position: relative; height: 30px; 
+.topnav li{float: left; min-width: 100px; background-image: url('images/buttontop1.png'); padding: 0px 5px; 
+				border: 1px solid #; text-align: center; position: relative; height: 30px; 
 				line-height: 30px;}
-.topnav li ul li{float: none; width: 100px;  padding: 0px 5px; text-align: left; margin-top: 0px; text-align:center;}
+.topnav li ul li{float: none; min-width: 100px;  padding: 0px 5px; text-align: left; margin-top: 0px; text-align:center;}
 .topnav li ul{position: relative; visibility: hidden; top: 0px; left: 0px;}
 .topnav li:hover ul{visibility: visible;}
-.topnav li:hover{background-image: url('images/buttonleft2.png');}
+.topnav li:hover{background-image: url('images/buttontop2.png');}
 .topnav li:active{color: purple;}
 .topnav a{text-decoration: none; color: #41148c; text-shadow: 0px 1px white; font-weight: ;}
 
@@ -79,9 +79,28 @@ padding: 50px 25px;
 background-color: ;
 }
 
+table {
+position: relative;
+float: left;
+border: 1px solid green;
+width: 150px;
+min-height: 60px;
+margin: 10px;
+text-align: left;
+}
+table caption{
+line-height: 30px;
+border: 1px solid green;
+border-bottom: none;
+background: url('images/tabletitle.png');
+font-size: 13pt;
+text-decoration: italic;
+text-shadow: 0px 2px white;
+}
+
 #rightbar{
 position: absolute;
-top: 0px;
+top: 10px;
 right: 10px;
 width: 133px;
 min-height: 300px;
@@ -92,17 +111,32 @@ background-color: ;
 
 #leftbar{
 position: absolute;
-top: 50px;
-left: 10px;
-width: 120px;
+top: 10px;
+left: 5px;
+width: 180px;
+min-height: 70%;
+background-color: ;
 }
+.services{
+position: relative; top: 10px; left: 2px; width: 150px; height: 100px; background: url('images/services1.png') no-repeat;}
+.services:hover{background: url('images/services2.png') no-repeat;}
+.staff{
+position: relative; top: 10px; left: 2px; width: 150px; height: 100px; background: url('images/services1.png') no-repeat;}
+.staff:hover{background: url('images/services2.png') no-repeat;}
+.contactus{
+position: relative; top: 10px; left: 2px; width: 150px; height: 100px; background: url('images/services1.png') no-repeat;}
+.contactus:hover{background: url('images/services2.png') no-repeat;}
+.aboutus{
+position: relative; top: 10px; left: 2px; width: 150px; height: 100px; background: url('images/services1.png') no-repeat;}
+.aboutus:hover{background: url('images/services2.png') no-repeat;}
+
 .leftnav{position: relative; width: 80%; height: 100%; margin-left: 0px; 
 				background-color: #; z-index: 1;}
 .leftnav ul{list-style: none; margin: 0px; padding: 0px;}
-.leftnav li{float: left; width: 100px; height: 30px; background-image: url('images/buttonleft1.png'); 
+.leftnav li{float: left; min-width: 100px; height: 30px; background-image: url('images/buttonleft1.png'); 
 			border: 1px solid grey; border-radius: 5px; text-align: center; position: relative; 
 				line-height: 30px;}
-.leftnav li ul li{float: none; width: 100px; text-align: left; padding-left: 5px; margin-left: 100px; 
+.leftnav li ul li{float: none; min-width: 100px; text-align: left; padding-left: 5px; margin-left: 100px; 
 					margin-top: 0px;}
 .leftnav li ul{position: absolute; visibility: hidden; top: 0px; left: 2px;}
 .leftnav li:hover ul{visibility: visible;}
@@ -118,11 +152,15 @@ margin-top: 0px;
 margin-right: auto;
 margin-left: auto;
 width: 100%;
-min-height: 40px;
-background-color: silver;
+min-height: 80px;
+border-top: 1px solid silver;
+background-color: ;
 text-align: center;
 line-height: 40px;
 }
+.logo-patients{position: absolute; background: url('images/logo-patients.png') no-repeat; top: 20px; left: 65px; width: 167px; height: 45px;}
+.logo-cqc{position: absolute; background: url('images/logo-cqc.png') no-repeat; top: 20px; left: 365px; width: 143px; height: 45px;}
+.logo-nhs{position: absolute; background: url('images/logo-nhs.png') no-repeat; top: 20px; left: 665px; width: 101px; height: 40px;}
 
 #outerhomecontent{
 position: absolute;
@@ -132,3 +170,32 @@ width: 100%;
 height: 500px;
 background-color: aqCa;
 }
+
+#slideshow{
+position: relative;
+top: 0px;
+left: 12px;
+margin-bottom: 25px;
+width: 500px;
+height: 270px;
+background-color: none;
+border: ridge pink 5px;
+}
+#slideshowimages{
+position: absolute; width: 500px; height: 250px; background-color: ; z-index: 1;}
+#slideshowtext{
+position: absolute; bottom: 20px; width: 490px; height: 30px; line-height: 30px; padding-left: 10px; 
+background-color: rgba(255, 130, 195, 0.3); text-shadow: 0px 1px white; font-weight: bold; z-index: 2;}
+#slideshownav{
+position: absolute; bottom: 0px; right: 155px; width: 180px; height: 20px; background-color: rgba(255, 55, 255, 0.3); border-radius: 5px; z-index: 3;}
+.slideshowcontrol{position: absolute; top: 2px; width: 100%; height: 100%;background-color:}
+.select1{position: absolute; right: 150px; background-image: url('images/point.png'); width: 20px; height: 20px;}
+.select2{position: absolute; right: 130px; background-image: url('images/point.png'); width: 20px; height: 20px;}
+.select3{position: absolute; right: 110px; background-image: url('images/point.png'); width: 20px; height: 20px;}
+.select4{position: absolute; right: 90px; background-image: url('images/point.png'); width: 20px; height: 20px;}
+.select5{position: absolute; right: 70px; background-image: url('images/point.png'); width: 20px; height: 20px;}
+.select6{position: absolute; right: 50px; background-image: url('images/point.png'); width: 20px; height: 20px;}
+.next{position: absolute; right: 2px; background-image: url('images/next.png'); width: 20px; height: 20px;}
+.prev{position: absolute; right: 32px; background-image: url('images/prev.png'); width: 20px; height: 20px;}
+.stop{position: absolute; right: 17px; background-image: url('images/stop.png'); width: 20px; height: 20px;}
+.loader{background:url(images/loader.gif) no-repeat; top: 120px; left: 245px; position: absolute; width: 20px; height: 20px; z-index: -1;}
