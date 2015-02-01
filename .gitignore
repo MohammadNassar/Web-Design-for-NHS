@@ -1,5 +1,5 @@
 
-# ----- For Windows -----
+# ===== For Windows =====
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -18,8 +18,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+# ========================
 
-# ----- For OSX -----
+# ===== For OSX =====
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -41,4 +42,5 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+# ========================
 
