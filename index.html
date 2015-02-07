@@ -2,8 +2,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns = "http://www.w3.org/1999/xhtml">
 	<head>
+		<title>Welcome</title>
 		<link type="text/css" href="style-index.css" rel="stylesheet"></link>
-		<title>My page</title>
 		
 		<script type="text/javascript">
 			var image1 = "images/slideimage1.png";
@@ -11,14 +11,14 @@
 			var image3 = "images/slideimage3.png";
 			var welcomeimage = "images/slideimage.png";
 			
-			var link1 = "http://www.google.com";
-			var link2 = "http://www.amrkhaled.net";
-			var link3 = "http://www.bromleybybowhealthcentre.nhs.uk/";
+			var link1 = "standrews/home.html";
+			var link2 = "xxp/home.html";
+			var link3 = "bbb/home.html";
 			var welcomelink = "";
 			
 			var text1 = "Info about About us";
 			var text2 = "Info about Contact us";
-			var text3 = "Info about Symptom Checker";
+			var text3 = "Info about Emergency Care";
 			var text4 = "Info about Careers";
 			
 			function slide1() {
@@ -51,7 +51,7 @@
 				document.getElementById("text").innerHTML = text1;}
 				else if (element == "contact") {
 				document.getElementById("text").innerHTML = text2;}
-				else if (element == "checker") {
+				else if (element == "emergency") {
 				document.getElementById("text").innerHTML = text3;}
 				else if (element == "careers") {
 				document.getElementById("text").innerHTML = text4;}
@@ -62,7 +62,7 @@
 	<body>
 		<div id="outerholder">
 		
-			<div class="title1"><img src="images/title1.png" width="540" height="45" alt="Logo2" /></div>
+			<div class="title1"><img src="images/title-all.png" width="540" height="45" alt="Logo2" /></div>
 			<div class="logo"><img src="images/logo.png" width="100" height="100" alt="Logo2" /></div>
 			<div class="nhslogo"><img src="images/nhs.png" width="120" height="50" alt="Logo3" /></div>
 			
@@ -77,10 +77,10 @@
 						<div id="slideimagelinkinner2"> </div>
 					 </a>
 					 <div id="sidelinks">
-						<a href="#"> <div id="about" onMouseOver="showinfo('about');">About us</div> </a>
-						<a href="#"> <div id="contact" onMouseOver="showinfo('contact');">Contact us</div> </a>
-						<a href="#"> <div id="checker" onMouseOver="showinfo('checker');">Symptom Checker</div> </a>
-						<a href="#"> <div id="careers" onMouseOver="showinfo('careers');">Careers</div> </a>
+						<a href="about.html"> <div id="about" onMouseOver="showinfo('about');">About us</div> </a>
+						<a href="contact.html"> <div id="contact" onMouseOver="showinfo('contact');">Contact us</div> </a>
+						<a href="emergency.html"> <div id="emergency" onMouseOver="showinfo('emergency');">Emergency Care</div> </a>
+						<a href="careers.html"> <div id="careers" onMouseOver="showinfo('careers');">Careers</div> </a>
 					</div>
 				</div> <!-- Close slideimage div -->
 			

@@ -70,26 +70,4 @@ function select(num) {
 function stop(){clearTimeout(timer);}
 function next(){stop(); sliding();}
 function prev(){stop(); slidenumber=slidenumber-2; sliding();}
-/*
-sliding();
-function sliding() {
-	setTimeout(function slide1() {document.getElementById('slideimage').src="images/slide1.png";
-							document.getElementById('slideshowtext').innerHTML=("Slide One");
-							document.getElementById('slideshowlink').href=link1;}, 1);
-	setTimeout(function slide2() {document.getElementById('slideimage').src="images/slide2.png";
-							document.getElementById('slideshowtext').innerHTML=("Slide Two");
-							document.getElementById('slideshowlink').href=link2}, 3000);
-	setTimeout(function slide3() {document.getElementById('slideimage').src="images/slide3.png";
-							document.getElementById('slideshowtext').innerHTML=("Slide Three");
-							document.getElementById('slideshowlink').href=link3;
-							document.getElementById('nav1image').src="images/bg2.png";
-							document.getElementById('nav1link').href=slide3();}, 6000);
-	setTimeout(function slide4() {document.getElementById('slideimage').src="images/slide4.png";
-							document.getElementById('slideshowtext').innerHTML=("Slide Four");
-							document.getElementById('slideshowlink').href=link4;}, 9000);
-	setTimeout(function slide5() {document.getElementById('slideimage').src="images/slide5.png";
-							document.getElementById('slideshowtext').innerHTML=("Slide Five");
-							document.getElementById('slideshowlink').href=link5;}, 12000);
-}
-setInterval("sliding();", 15000);
-*/
+
