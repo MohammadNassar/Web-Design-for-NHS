@@ -1,6 +1,6 @@
 
 body{
-background-image: url('images/bg.png');
+background: url('images/bg.png') fixed;
 margin-right: auto;
 margin-left: auto;
 margin-top: 1px;
@@ -33,8 +33,8 @@ width: 100%;
 height: 120px;
 background-color: rgba(255, 255, 255, 0.5);
 }
-.title1{position: absolute; top: 20px; left: 165px; width: 700px; height: 50px;}
-.title2{position: absolute; top: 70px; left: 300px; width: 700px; height: 50px;}
+.title1{position: absolute; top: 20px; left: 165px; width: 600px; height: 50px;}
+.title2{position: absolute; top: 70px; left: 300px; width: 500px; height: 50px;}
 .logo{position: absolute; top: 15px; left: 10px; width: 120px; height: 110px;}
 .nhslogo{position: absolute; top: 20px; right: 10px; width: 120px; height: 80px;}
 
@@ -76,6 +76,7 @@ min-height: 300px;
 margin-right: auto;
 margin-left: auto;
 text-align: left;
+line-height: 30px;
 padding: 50px 25px;
 background-color: ;
 }
@@ -83,7 +84,7 @@ background-color: ;
 table {
 position: relative;
 float: left;
-border: 1px solid green;
+//border: 1px solid green;
 width: 150px;
 min-height: 60px;
 margin: 10px;
@@ -91,12 +92,13 @@ text-align: left;
 }
 table caption{
 line-height: 30px;
-border: 1px solid green;
+//border: 1px solid green;
 border-bottom: none;
-background: url('images/tabletitle.png');
+//background: url('images/tabletitle.png');
 font-size: 13pt;
 text-decoration: italic;
-text-shadow: 0px 2px white;
+font-weight: bold;
+text-align: left;
 }
 
 #rightbar{
@@ -160,9 +162,16 @@ background-color: ;
 text-align: center;
 line-height: 40px;
 }
-.logo-patients{position: absolute; background: url('images/logo-patients.png') no-repeat; top: 60px; left: 65px; width: 167px; height: 45px;}
-.logo-cqc{position: absolute; background: url('images/logo-cqc.png') no-repeat; top: 60px; left: 365px; width: 143px; height: 45px;}
-.logo-nhs{position: absolute; background: url('images/logo-nhs.png') no-repeat; top: 60px; left: 665px; width: 101px; height: 40px;}
+.logo-patients{position: relative; background: url('images/logo-patients.png') no-repeat; float: left; margin: 10px 10px; width: 117px; height: 25px;}
+.logo-cqc{position: relative; background: url('images/logo-cqc.png') no-repeat; float: left; margin: 10px 10px; width: 80px; height: 26px;}
+.logo-nhschoices{position: relative; background: url('images/logo-nhschoices.png') no-repeat; float: left; margin: 10px 10px; width: 100px; height: 28px;}
+.logo-nhsdirect{position: relative; background: url('images/logo-nhsdirect.png') no-repeat; float: left; margin: 10px 10px; width: 54px; height: 40px;}
+.logo-depofhealth{position: relative; background: url('images/logo-depofhealth.png') no-repeat; float: left; margin: 10px 10px; width: 53px; height: 35px;}
+.logo-nhs111{position: relative; background: url('images/logo-nhs111.png') no-repeat; float: left; margin: 10px 10px; width: 54px; height: 50px;}
+.logo-netdoctor{position: relative; background: url('images/logo-netdoctor.png') no-repeat; float: left; margin: 10px 10px; width: 70px; height: 35px;}
+.logo-bartshealth{position: relative; background: url('images/logo-bartshealth.png') no-repeat; float: left; margin: 10px 10px; width: 110px; height: 27px;}
+.logo-nhsengland{position: relative; background: url('images/logo-nhsengland.png') no-repeat; float: left; margin: 10px 10px; width: 60px; height: 38px;}
+#footerinfo {position: absolute; text-align: center; width: 100%; color: grey; margin-top: -20px;}
 
 #footerlinks a{
 margin: auto 50px;

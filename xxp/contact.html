@@ -4,7 +4,6 @@
 	<head>
 		<title>Contact Us - Bromley by Bow Health Centre</title>
 		<link type="text/css" href="style-default.css" rel="stylesheet"></link>
-		<script src="rightbarinfo.js"></script>
 	</head>
 	<body>
 		<div id="holder">
@@ -66,29 +65,67 @@
 				</div> <!-- Close leftbar div -->
 			
 				<div id="content">
-								Add info here...
+					<table class="section">
+						<tr><td>Nearest Station is: Stepney Green -  2 minute walk</td></tr>
+					</table>
+					<img src="images/temp-img.jpg" width="300" />
+					<br /> <br />
+					<table class="section">
+						<tr><td>XX Place Surgery<br />2 Stayners Road<br />London E1 4AH<br />London E3 3BT</td></tr>
+					</table>
+					<iframe width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="M"></iframe><br /><small><a href="https://maps.google.co.uk/maps?hl=en&amp;ie=UTF8&amp;q=St+Andrews+Health+Centre,+Hannaford+Walk,+London&amp;fb=1&amp;gl=uk&amp;hq=St+Andrews+Health+Centre,&amp;hnear=0x48761d4f963b4c57:0xbd69d95baf9e1b49,Hannaford+Walk,+London+E3+3PU&amp;cid=0,0,3470683263432794309&amp;ll=51.52386,-0.014661&amp;spn=0.006295,0.006295&amp;t=m&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 				</div> <!-- Close content div -->
 				
 				<div id="rightbar">
-					
+					<script src="rightbarinfo.js"></script>
 				</div> <!-- Close rightbar div -->
 				
 			</div> <!-- Close bodyholder div -->
 			
 			<div id="footer">
-			<div id="footerlinks">
+				<div id="footerlinks">
 					<a href="../index.html"> Main Partnership Page </a>
 					<a href="about.html"> About Us </a>
 					<a href="contact.html"> Contact Us </a>
 					<a href="services.html"> Services </a>
 					<a href="../careers.html"> Careers </a>
-				</div><br /><br />
-				<a href="http://www.patient.co.uk/"> <div class="logo-patients"> </div> </a>
-				<a href="http://www.cqc.org.uk/"> <div class="logo-cqc"> </div> </a>
-				<a href="http://www.nhs.uk/Pages/HomePage.aspx"> <div class="logo-nhs"> </div> </a>
+				</div>
 				
+				<a href="http://www.patient.co.uk/">
+					<div class="logo-patients" onMouseOver="showFooterInfo('patients');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.cqc.org.uk/">
+					<div class="logo-cqc" onMouseOver="showFooterInfo('cqc');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhs.uk/Pages/HomePage.aspx">
+					<div class="logo-nhschoices" onMouseOver="showFooterInfo('nhschoices');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhsdirect.nhs.uk/">
+					<div class="logo-nhsdirect" onMouseOver="showFooterInfo('nhsdirect');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="https://www.gov.uk/government/organisations/department-of-health">
+					<div class="logo-depofhealth" onMouseOver="showFooterInfo('depofhealth');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhs.uk/NHSEngland/AboutNHSservices/Emergencyandurgentcareservices/Pages/NHS-111.aspx">
+					<div class="logo-nhs111" onMouseOver="showFooterInfo('nhs111');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.netdoctor.co.uk/">
+					<div class="logo-netdoctor" onMouseOver="showFooterInfo('netdoctor');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.bartshealth.nhs.uk/">
+					<div class="logo-bartshealth" onMouseOver="showFooterInfo('bartshealth');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.england.nhs.uk/">
+					<div class="logo-nhsengland" onMouseOver="showFooterInfo('nhsengland');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
 				
-				&copy; Bromley by Bow Health Partnership
+				<br /><br />
+				
+				<div id="footerinfo">
+					<script src="footerinfo.js"></script>
+				</div>
+				
+				<p>&copy; Bromley by Bow Health Partnership</p>
 			</div> <!-- Close footer div -->
 			
 		</div> <!-- Close holder div -->

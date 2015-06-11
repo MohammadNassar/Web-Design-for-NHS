@@ -4,7 +4,6 @@
 	<head>
 		<title>Appointments - Bromley by Bow Health Centre</title>
 		<link type="text/css" href="style-default.css" rel="stylesheet"></link>
-		<script src="rightbarinfo.js"></script>
 	</head>
 	<body>
 		<div id="holder">
@@ -65,30 +64,66 @@
 					</div> <!-- Close leftnav div -->
 				</div> <!-- Close leftbar div -->
 			
-				<div id="content">
-								Add info here...
+				<div id="content" style="text-align: left;">
+					<h3 align=center>Book an appointment</h3>
+					<p>To make appointments you must call our reception on 0844 815 1020.</p>
+					<p>You can also use the walk in Centre at St. Andrew’s when we are closed at 2 Hannaford Walk, Devon’s road, E3 3FF. It is open 8am-8pm seven days a week. But do note that this operates as a walk in and you are not able to book specific appointment times over the phone.</p>
+					<p>It is possible to request routine appointments with specific doctors. For the same day appointments you may have to see whatever doctor is available. If you need a home visit you will need to talk to the on call doctor who will discuss with you why the visit is necessary and when it can happen. The doctors do home visits after morning surgery. Please ring 0844 815 1020 before 11.00am if possible.</p>
+					<p>If you need urgent advice, ring the put-of-hours service on 020 7377 7151. You may wish to contact NHS Direct either by phone on 0845 4647 or online at <a href="http://www.nhsdirect.nhs.uk">www.nhsdirect.nhs.uk</a></p>
+					<p>You can also book appointments online. You will need a special login to do this-just ask at  reception.</p>
+					<p>- External Link to booking online.</p>
 				</div> <!-- Close content div -->
 				
 				<div id="rightbar">
-					
+					<script src="rightbarinfo.js"></script>
 				</div> <!-- Close rightbar div -->
 				
 			</div> <!-- Close bodyholder div -->
 			
 			<div id="footer">
-			<div id="footerlinks">
+				<div id="footerlinks">
 					<a href="../index.html"> Main Partnership Page </a>
 					<a href="about.html"> About Us </a>
 					<a href="contact.html"> Contact Us </a>
 					<a href="services.html"> Services </a>
 					<a href="../careers.html"> Careers </a>
-				</div><br /><br />
-				<a href="http://www.patient.co.uk/"> <div class="logo-patients"> </div> </a>
-				<a href="http://www.cqc.org.uk/"> <div class="logo-cqc"> </div> </a>
-				<a href="http://www.nhs.uk/Pages/HomePage.aspx"> <div class="logo-nhs"> </div> </a>
+				</div>
 				
+				<a href="http://www.patient.co.uk/">
+					<div class="logo-patients" onMouseOver="showFooterInfo('patients');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.cqc.org.uk/">
+					<div class="logo-cqc" onMouseOver="showFooterInfo('cqc');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhs.uk/Pages/HomePage.aspx">
+					<div class="logo-nhschoices" onMouseOver="showFooterInfo('nhschoices');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhsdirect.nhs.uk/">
+					<div class="logo-nhsdirect" onMouseOver="showFooterInfo('nhsdirect');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="https://www.gov.uk/government/organisations/department-of-health">
+					<div class="logo-depofhealth" onMouseOver="showFooterInfo('depofhealth');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhs.uk/NHSEngland/AboutNHSservices/Emergencyandurgentcareservices/Pages/NHS-111.aspx">
+					<div class="logo-nhs111" onMouseOver="showFooterInfo('nhs111');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.netdoctor.co.uk/">
+					<div class="logo-netdoctor" onMouseOver="showFooterInfo('netdoctor');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.bartshealth.nhs.uk/">
+					<div class="logo-bartshealth" onMouseOver="showFooterInfo('bartshealth');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.england.nhs.uk/">
+					<div class="logo-nhsengland" onMouseOver="showFooterInfo('nhsengland');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
 				
-				&copy; Bromley by Bow Health Partnership
+				<br /><br />
+				
+				<div id="footerinfo">
+					<script src="footerinfo.js"></script>
+				</div>
+				
+				<p>&copy; Bromley by Bow Health Partnership</p>
 			</div> <!-- Close footer div -->
 			
 		</div> <!-- Close holder div -->

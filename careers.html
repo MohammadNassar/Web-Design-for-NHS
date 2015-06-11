@@ -4,7 +4,6 @@
 	<head>
 		<title>Careers - Bromley by Bow Health Centre</title>
 		<link type="text/css" href="style-default.css" rel="stylesheet"></link>
-		<script src="rightbarinfo.js"></script>
 	</head>
 	<body>
 		<div id="holder">
@@ -21,10 +20,10 @@
 					<ul>
 						<a href="home.html"><li>Home</a>
 							<ul>
-								<a href="../index.html"><li>Main Page</li></a>
-								<a href="../standrews/home.html"><li>St. Andrew's</li></a>
-								<a href="../bbb/home.html"><li>Bromley by Bow</li></a>
-								<a href="../xxp/home.html"><li>XX Place</li></a>
+								<a href="index.html"><li>Main Page</li></a>
+								<a href="standrews/home.html"><li>St. Andrew's</li></a>
+								<a href="bbb/home.html"><li>Bromley by Bow</li></a>
+								<a href="xxp/home.html"><li>XX Place</li></a>
 							</ul>
 						</li>
 						<a href="onlineaccess.html"><li>Online Access</a>
@@ -35,11 +34,12 @@
 								<a href="registrations.html"><li>Registrations</li></a>
 							</ul>
 						</li>
-						<a href="patientinfo.html"><li>Patient Information</a>
+						<a href="patientfirst.html"><li>Patient First</a>
 							<ul>
 								<a href="patientgroup.html"><li>Patient Participation Group</li></a>
-								<a href="healthwatch.html"><li>Health Watch</li></a>
-								<a href="rights.html"><li>Rights and Responsibilities</li></a>
+								<a href="patientcharter.html"><li>Patient Charter</li></a>
+								<a href="complaints.html"><li>Complaints Procedure</li></a>
+								<a href="towerhamletshealthwatch.html"><li>Tower Hamlets Health Watch</li></a>
 							</ul>
 						</li>
 						<a href="noticeboard.html"><li>Notice Board</a>
@@ -69,25 +69,55 @@
 				</div> <!-- Close content div -->
 				
 				<div id="rightbar">
-					
+					<script src="rightbarinfo.js"></script>
 				</div> <!-- Close rightbar div -->
 				
 			</div> <!-- Close bodyholder div -->
 			
 			<div id="footer">
-			<div id="footerlinks">
+				<div id="footerlinks">
 					<a href="../index.html"> Main Partnership Page </a>
 					<a href="about.html"> About Us </a>
 					<a href="contact.html"> Contact Us </a>
 					<a href="services.html"> Services </a>
 					<a href="../careers.html"> Careers </a>
-				</div><br /><br />
-				<a href="http://www.patient.co.uk/"> <div class="logo-patients"> </div> </a>
-				<a href="http://www.cqc.org.uk/"> <div class="logo-cqc"> </div> </a>
-				<a href="http://www.nhs.uk/Pages/HomePage.aspx"> <div class="logo-nhs"> </div> </a>
+				</div>
 				
+				<a href="http://www.patient.co.uk/">
+					<div class="logo-patients" onMouseOver="showFooterInfo('patients');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.cqc.org.uk/">
+					<div class="logo-cqc" onMouseOver="showFooterInfo('cqc');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhs.uk/Pages/HomePage.aspx">
+					<div class="logo-nhschoices" onMouseOver="showFooterInfo('nhschoices');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhsdirect.nhs.uk/">
+					<div class="logo-nhsdirect" onMouseOver="showFooterInfo('nhsdirect');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="https://www.gov.uk/government/organisations/department-of-health">
+					<div class="logo-depofhealth" onMouseOver="showFooterInfo('depofhealth');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhs.uk/NHSEngland/AboutNHSservices/Emergencyandurgentcareservices/Pages/NHS-111.aspx">
+					<div class="logo-nhs111" onMouseOver="showFooterInfo('nhs111');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.netdoctor.co.uk/">
+					<div class="logo-netdoctor" onMouseOver="showFooterInfo('netdoctor');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.bartshealth.nhs.uk/">
+					<div class="logo-bartshealth" onMouseOver="showFooterInfo('bartshealth');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.england.nhs.uk/">
+					<div class="logo-nhsengland" onMouseOver="showFooterInfo('nhsengland');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
 				
-				&copy; Bromley by Bow Health Partnership
+				<br /><br />
+				
+				<div id="footerinfo">
+					<script src="footerinfo.js"></script>
+				</div>
+				
+				<p>&copy; Bromley by Bow Health Partnership</p>
 			</div> <!-- Close footer div -->
 			
 		</div> <!-- Close holder div -->

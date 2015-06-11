@@ -4,7 +4,6 @@
 	<head>
 		<title>Staff - Bromley by Bow Health Centre</title>
 		<link type="text/css" href="style-default.css" rel="stylesheet"></link>
-		<script src="rightbarinfo.js"></script>
 	</head>
 	<body>
 		<div id="holder">
@@ -66,29 +65,126 @@
 				</div> <!-- Close leftbar div -->
 			
 				<div id="content">
-								Add info here...
+					<table class="section" style="width:240px;">
+						<caption>Doctors</caption>
+						<tr><td>
+							<br />
+							Dr Gareth Brown (Partner)<br />
+							Dr Dirk Pilat (Partner)<br />
+							Dr Martha Ford<br />
+							Dr Susannah Solaiman<br />
+							Dr Iyesha Nadim<br />
+							Dr Claire Hubbard<br />
+							Dr Thomas Round<br />
+							<br />
+						</td></tr>
+					</table>
+					<table class="section" style="width:240px;">
+						<caption>Nurses</caption>
+						<tr><td>
+							Linda Aldous (Partner)<br />
+							Susan Bartholomew<br />
+							Catherine Au<br />
+						</td></tr>
+					</table>
+					<table class="section" style="width:240px;">
+						<caption>Phlebotomists</caption>
+						<tr><td>
+							Jasmin Rahman<br />
+							Ruksana Begum<br />
+							Marium Begum<br />
+						</td></tr>
+					</table>
+					<table class="section" style="width:240px;">
+						<caption>Reception Team/Patient assistant</caption>
+						<tr><td>
+							<br />
+							Shirley Cullen<br />
+							Farida Tailor<br />
+							Ahmed Rais<br />
+							Nazma Begum<br />
+							Pat Froyze<br />
+							<br />
+						</td></tr>
+					</table>
+					<table class="section" style="width:240px;">
+						<caption>Senior Patient assistants</caption>
+						<tr><td>
+							Tahmine Masume<br />
+							Helen Scrensen<br />
+						</td></tr>
+					</table>
+					<table class="section" style="width:240px;">
+						<caption>IT Manager</caption>
+						<tr><td>
+							Shah Ahmed
+						</td></tr>
+					</table>
+					<table class="section" style="width:240px;">
+						<caption>Team Leader</caption>
+						<tr><td>
+							Akthar Uddin<br />
+							Ragan Bailey<br />
+						</td></tr>
+					</table>
+					<table class="section" style="width:240px;">
+						<caption>Surgery Manager</caption>
+						<tr><td>
+							Kerry Preston<br />
+						</td></tr>
+					</table>
 				</div> <!-- Close content div -->
 				
 				<div id="rightbar">
-					
+					<script src="rightbarinfo.js"></script>
 				</div> <!-- Close rightbar div -->
 				
 			</div> <!-- Close bodyholder div -->
 			
 			<div id="footer">
-			<div id="footerlinks">
+				<div id="footerlinks">
 					<a href="../index.html"> Main Partnership Page </a>
 					<a href="about.html"> About Us </a>
 					<a href="contact.html"> Contact Us </a>
 					<a href="services.html"> Services </a>
 					<a href="../careers.html"> Careers </a>
-				</div><br /><br />
-				<a href="http://www.patient.co.uk/"> <div class="logo-patients"> </div> </a>
-				<a href="http://www.cqc.org.uk/"> <div class="logo-cqc"> </div> </a>
-				<a href="http://www.nhs.uk/Pages/HomePage.aspx"> <div class="logo-nhs"> </div> </a>
+				</div>
 				
+				<a href="http://www.patient.co.uk/">
+					<div class="logo-patients" onMouseOver="showFooterInfo('patients');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.cqc.org.uk/">
+					<div class="logo-cqc" onMouseOver="showFooterInfo('cqc');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhs.uk/Pages/HomePage.aspx">
+					<div class="logo-nhschoices" onMouseOver="showFooterInfo('nhschoices');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhsdirect.nhs.uk/">
+					<div class="logo-nhsdirect" onMouseOver="showFooterInfo('nhsdirect');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="https://www.gov.uk/government/organisations/department-of-health">
+					<div class="logo-depofhealth" onMouseOver="showFooterInfo('depofhealth');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.nhs.uk/NHSEngland/AboutNHSservices/Emergencyandurgentcareservices/Pages/NHS-111.aspx">
+					<div class="logo-nhs111" onMouseOver="showFooterInfo('nhs111');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.netdoctor.co.uk/">
+					<div class="logo-netdoctor" onMouseOver="showFooterInfo('netdoctor');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.bartshealth.nhs.uk/">
+					<div class="logo-bartshealth" onMouseOver="showFooterInfo('bartshealth');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
+				<a href="http://www.england.nhs.uk/">
+					<div class="logo-nhsengland" onMouseOver="showFooterInfo('nhsengland');" onMouseOut="hideFooterInfo();"> </div>
+				</a>
 				
-				&copy; Bromley by Bow Health Partnership
+				<br /><br />
+				
+				<div id="footerinfo">
+					<script src="footerinfo.js"></script>
+				</div>
+				
+				<p>&copy; Bromley by Bow Health Partnership</p>
 			</div> <!-- Close footer div -->
 			
 		</div> <!-- Close holder div -->
