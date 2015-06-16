@@ -1,10 +1,18 @@
 
-var maininfo = "<strong>Opening Times:</strong><br />Monday: 8:30am to 8pm</br>Tuesday: 8:30am to 8pm</br>Wednesday: 8:30am to 8pm</br>Thursday: 8:30am to 8pm</br>Friday: 8:30am to 6:30pm</br>Saturday: CLOSED</br>Sunday: CLOSED</br></br><strong>Tel:</strong> 020 8980 1888 </br></br><strong>Emergency Tel / </br><i>out of hours service:</strong></i></br></br>020 7377 7151</br></br>";
+var mon = "<tr><td>Mon:</td><td>8:30am - 8pm</td></tr>";
+var tues = "<tr><td>Tues:</td><td>8:30am - 8pm</td></tr>";
+var wed = "<tr><td>Wed:</td><td>8:30am - 8pm</td></tr>";
+var thur = "<tr><td>Thur:</td><td>8:30am - 8pm</td></tr>";
+var fri = "<tr><td>Fri:</td><td>8:30am- 6:30pm</td></tr>";
+var sat = "<tr><td>Sat:</td><td>CLOSED</td></tr>";
+var sun = "<tr><td>Sun:</td><td>CLOSED</td></tr>";
+var openingtimes = "<b>Opening Times:</b><table>"+mon+tues+wed+thur+fri+sat+sun+"</table></br></br>";
+var contactinfo = "<b>Tel:</b> 020 8980 1888 </br></br><b>Emergency Tel / </br><i>out of hours service:</b></i></br></br>020 7377 7151";
 
 function display(){
 	var time = new Date();
 		var timenow = time.toLocaleTimeString();
-	document.getElementById('rightbar').innerHTML = timenow + "<br /><br />" + maininfo;}
+	document.getElementById('times').innerHTML = timenow + "<br /><br />" + openingtimes + contactinfo;}
 
 display();
 setInterval("display();", 1000);

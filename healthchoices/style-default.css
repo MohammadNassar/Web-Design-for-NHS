@@ -8,6 +8,7 @@ margin-top: 1px;
 *{
 font-family: calibri;
 }
+a img{border: none;}
 /* * a{}
 * ul {list-style-image: url('');} */
 
@@ -33,8 +34,8 @@ width: 100%;
 height: 120px;
 background-color: rgba(255, 255, 255, 0.5);
 }
-.title1{position: absolute; top: 20px; left: 165px; width: 600px; height: 50px;}
-.title2{position: absolute; top: 70px; left: 300px; width: 500px; height: 50px;}
+.title1{position: absolute; top: 20px; left: 265px; width: 400px; height: 40px;}
+.title2{position: absolute; top: 65px; left: 165px; width: 400px; height: 50px;}
 .logo{position: absolute; top: 15px; left: 10px; width: 120px; height: 110px;}
 .nhslogo{position: absolute; top: 20px; right: 10px; width: 120px; height: 80px;}
 
@@ -59,19 +60,19 @@ background-image: url('images/buttontop1.png');
 .topnav li:active{color: purple;}
 .topnav a{text-decoration: none; color: #41148c; text-shadow: 0px 1px white; font-weight: ;}
 
-.rightnav a{text-decoration: none; color: brown; text-shadow: 0px 1px white; font-weight: ;}
+.rightnav a{text-decoration: none; color: black; text-shadow: 0px 1px white; font-weight: ;}
 .children{
-position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: pink; border: 2px solid grey; border-radius: 15px; text-align: center; line-height: 80px;}
-.children:hover{color: black;}
+position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: #E0FFC2; border: 2px solid #CAE6AF; border-radius: 15px; text-align: center; line-height: 80px;}
+.children:hover{color: black; background-color: #CAE6AF;}
 .young{
-position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: pink; border: 2px solid grey; border-radius: 15px; text-align: center; line-height: 20px;}
-.young:hover{color: black;}
+position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: #F4C4C4; border: 2px solid #DCB0B0; border-radius: 15px; text-align: center; line-height: 20px;}
+.young:hover{color: black; background-color: #DCB0B0;}
 .adults{
-position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: pink; border: 2px solid grey; border-radius: 15px; text-align: center; line-height: 80px;}
-.adults:hover{color: black;}
+position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: #CCE6FF; border: 2px solid #B8CFE6; border-radius: 15px; text-align: center; line-height: 80px;}
+.adults:hover{color: black; background-color: #B8CFE6;}
 .lateryears{
-position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: pink; border: 2px solid grey; border-radius: 15px; text-align: center; line-height: 80px;}
-.lateryears:hover{color: black;}
+position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: #FFFF99; border: 2px solid #FFFF75; border-radius: 15px; text-align: center; line-height: 80px;}
+.lateryears:hover{color: black; background-color: #FFFF75;}
 
 #bodyholder{
 position: relative;
@@ -94,6 +95,7 @@ text-align: left;
 line-height: 20px;
 padding: 50px 5px;
 background-color: ;
+text-decoration: none;
 }
 
 #section {
@@ -160,26 +162,28 @@ width: 170px;
 min-height: 300px;
 background-color: ;
 }
-.leftnav a{text-decoration: none; color: brown; text-shadow: 0px 1px white; font-weight: ;}
+.leftnav a{text-decoration: none; color: black; text-shadow: 0px 1px white; font-weight: ;}
 
-.main{
-position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: pink; border: 2px solid grey; border-radius: 15px; text-align: center; line-height: 80px;}
-.main:hover{color: black;}
 .healthorg{
-position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: pink; border: 2px solid grey; border-radius: 15px; text-align: center; line-height: 20px;}
-.healthorg:hover{color: black;}
+position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: #FFCC99; border: 2px solid #E6B88A; border-radius: 15px; text-align: center; line-height: 20px;}
+.healthorg:hover{color: black; background-color: #E6B88A;}
 .inmyarea{
-position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: pink; border: 2px solid grey; border-radius: 15px; text-align: center; line-height: 80px;}
-.inmyarea:hover{color: black;}
+position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: #CCFFFF; border: 2px solid #B8E6E6; border-radius: 15px; text-align: center; line-height: 80px;}
+.inmyarea:hover{color: black; background-color: #B8E6E6;}
 .healthyliving{
-position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: pink; border: 2px solid grey; border-radius: 15px; text-align: center; line-height: 80px;}
-.healthyliving:hover{color: black;}
+position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: #CDCDEE; border: 2px solid #B8B8D6; border-radius: 15px; text-align: center; line-height: 80px;}
+.healthyliving:hover{color: black; background-color: #B8B8D6;}
 .symchecker{
-position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: pink; border: 2px solid grey; border-radius: 15px; text-align: center; line-height: 80px;}
-.symchecker:hover{color: black;}
+position: relative; top: 10px; left: 2px; width: 150px; height: 80px; background-color: #EAEAF3; border: 2px solid #D3D3DB; border-radius: 15px; text-align: center; line-height: 80px;}
+.symchecker:hover{color: black; background-color: #D3D3DB;}
 
 .leftnav{position: relative; width: 80%; height: 100%; margin-left: 0px; 
 				background-color: #; z-index: 1;}
+				
+
+.keepingfit{position: relative; top: 10px; left: 2px; width: 200px; height: 100px; background-color: #E0E0E6; border: 2px solid #CACACF; border-radius: 100px; text-align: center; line-height: 20px;}
+.keepingfit:hover{color: black; background-color: #CACACF;}
+
 
 #footer{
 position: relative;

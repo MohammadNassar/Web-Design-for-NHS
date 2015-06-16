@@ -9,6 +9,7 @@ margin-top: 1px;
 *{font-family: calibri; border: none;}
 
 a{cursor: pointer;}
+a img{border: none;}
 
 #outerholder{
 position: relative;
@@ -48,29 +49,39 @@ z-index: 1;
 #access1{
 position: absolute;
 top: 415px;
-left: 70px;
-width: 200px;
+left: 20px;
+width: 175px;
 height: 70px;
-background: url('images/titles/standrews.png') no-repeat;
+background: url('images/index-a.png') no-repeat;
 background-color: rgba(255, 255, 255, 0.1);
 }
 #access2{
 position: absolute;
 top: 457px;
-left: 280px;
-width: 164px;
-height: 50px;
-background: url('images/titles/xxplace.png') no-repeat;
+left: 200px;
+width: 114px;
+height: 82px;
+background: url('images/index-x.png') no-repeat;
 background-color: rgba(255, 255, 255, 0.1);
 }
 
 #access3{
 position: absolute;
+top: 457px;
+left: 352px;
+width: 210px;
+height: 70px;
+background: url('images/index-b.png') no-repeat;
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+#access4{
+position: absolute;
 top: 414px;
-left: 492px;
+left: 572px;
 width: 160px;
 height: 70px;
-background: url('images/titles/bbb.png') no-repeat;
+background: url('images/index-hc.png') no-repeat;
 background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -87,6 +98,7 @@ top: 120px;
 width: 250px;
 height: 250px;
 background-image: url('images/link.png');
+background-color: ;
 }
 
 #slideimagelinkinner2{
@@ -97,16 +109,18 @@ width: 280px;
 height: 160px;
 background-image: url('images/link.png');
 text-align: center;
+background-color: ;
 }
 
 #text{
 position: absolute;
-left: 180px;
-top: 160px;
-width: 280px;
-height: 160px;
+left: 210px;
+top: 130px;
+width: 250px;
+height: 240px;
 background-image: url('images/link.png');
 text-align: center;
+background-color:;
 }
 
 #about{

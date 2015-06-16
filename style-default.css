@@ -8,6 +8,7 @@ margin-top: 1px;
 *{
 font-family: calibri;
 }
+a img{border: none;}
 /* * a{}
 * ul {list-style-image: url('');} */
 
@@ -34,7 +35,6 @@ height: 120px;
 background-color: rgba(255, 255, 255, 0.5);
 }
 .title1{position: absolute; top: 20px; left: 165px; width: 600px; height: 50px;}
-.title2{position: absolute; top: 70px; left: 300px; width: 500px; height: 50px;}
 .logo{position: absolute; top: 15px; left: 10px; width: 120px; height: 110px;}
 .nhslogo{position: absolute; top: 20px; right: 10px; width: 120px; height: 80px;}
 
@@ -70,12 +70,12 @@ background-color: ;
 
 #content{
 position: relative;
-float: left;
-width: 520px;
+top: 10px;
+width: 800px;
 min-height: 300px;
 margin-right: auto;
 margin-left: auto;
-text-align: left;
+text-align: center;
 padding: 50px 25px;
 background-color: ;
 }

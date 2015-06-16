@@ -8,6 +8,7 @@ margin-top: 1px;
 *{
 font-family: calibri;
 }
+a img{border: none;}
 /* * a{}
 * ul {list-style-image: url('');} */
 
@@ -33,8 +34,8 @@ width: 100%;
 height: 120px;
 background-color: rgba(255, 255, 255, 0.5);
 }
-.title1{position: absolute; top: 20px; left: 165px; width: 600px; height: 50px;}
-.title2{position: absolute; top: 70px; left: 300px; width: 500px; height: 50px;}
+.title1{position: absolute; top: 20px; left: 265px; width: 400px; height: 40px;}
+.title2{position: absolute; top: 70px; left: 200px; width: 550px; height: 50px;}
 .logo{position: absolute; top: 15px; left: 10px; width: 120px; height: 110px;}
 .nhslogo{position: absolute; top: 20px; right: 10px; width: 120px; height: 80px;}
 
@@ -46,10 +47,10 @@ width: 100%;
 height: 30px;
 background-image: url('images/buttontop1.png');
 }
-.topnav{position: relative; width: 750px; height: 100%; margin-left: 100px; 
+.topnav{position: relative; width: 110%; height: 100%; margin-left: 5px; 
 				background-color: #; z-index: 10;}
 .topnav ul{list-style: none; margin: 0px; padding: 0px;}
-.topnav li{float: left; min-width: 100px; background-image: url('images/buttontop1.png'); padding: 0px 5px; 
+.topnav li{float: left; min-width: 100px; background-image: url('images/buttontop1.png'); padding: 0px 1px; 
 				border: 1px solid #; text-align: center; position: relative; height: 30px; 
 				line-height: 30px;}
 .topnav li ul li{float: none; min-width: 100px;  padding: 0px 5px; text-align: left; margin-top: 0px; text-align:center;}
@@ -81,6 +82,11 @@ padding: 50px 25px;
 background-color: ;
 }
 
+.directory {position: relative; width: 100%; height: 20px; margin-bottom: 10px; line-height: 20px; font-size: 10.5pt; background-color: #eeeeee;}
+.directory a{float: left; margin: 0px 10px; text-decoration: none;}
+.directory a:hover{text-decoration: underline;}
+.arrow {background: url('images/arrow.png') no-repeat; width: 20px; height: 20px; float: left; margin-right: 10px;}
+
 table {
 position: relative;
 float: left;
@@ -105,10 +111,10 @@ text-align: left;
 position: relative;
 float: left;
 top: 10px;
-width: 140px;
+width: 160px;
 min-height: 300px;
 text-align: center;
-padding: 50px 10px;
+padding: 50px 5px;
 background-color: ;
 }
 
@@ -117,7 +123,7 @@ position: relative;
 float: left;
 top: 10px;
 left: 5px;
-width: 170px;
+width: 160px;
 min-height: 300px;
 background-color: ;
 }
@@ -191,7 +197,7 @@ background-color: aqCa;
 #slideshow{
 position: relative;
 top: -20px;
-left: 12px;
+left: 15px;
 margin-bottom: 25px;
 width: 500px;
 height: 270px;

@@ -9,17 +9,19 @@
 			var image1 = "images/slideimage1.png";
 			var image2 = "images/slideimage2.png";
 			var image3 = "images/slideimage3.png";
+			var image4 = "images/slideimage4.png";
 			var welcomeimage = "images/slideimage.png";
 			
 			var link1 = "standrews/home.html";
 			var link2 = "xxp/home.html";
 			var link3 = "bbb/home.html";
+			var link4 = "healthchoices/home.html";
 			var welcomelink = "";
 			
 			var text1 = "Info about About us";
-			var text2 = "Info about Contact us";
-			var text3 = "Info about Emergency Care";
-			var text4 = "Info about Careers";
+			var text2 = "<span style='color:brown;font-size:15pt;'><b>Contact Us</b></span><br><b>Bromley by Bow Health Centre</b><br><b>Telephone:</b> 0844 815 1020<br><b>Fax:</b> 020 8983 4098<br><br><b>St Andrew’s Health Centre</b><br><b>Telephone:</b> 020 8980 1888<br><b>Fax:</b> 020 89802753<br><br><b>XX Place</b><br><b>Telephone:</b> 08448151020<br><b>Fax:</b> 020 7702 7024<br><br>";
+			var text3 = "<span style='color:brown;font-size:15pt;'><b>Emergency Care</b></span><br>If you need urgent advice, ring the put-of-hours service on <br><b>020 7377 7151</b>.<br>You may wish to contact NHS Direct either by phone on <b>0845 4647</b> or online at <a href='http://www.nhsdirect.nhs.uk'>www.nhsdirect.nhs.uk</a> .<br>If an <u>ambulance is needed</u>, call 999, the emergency phone number in the UK. You can also dial 112, which is the ambulance number throughout the European Union.";
+			var text4 = "<br><br><br><br>Brief information on careers<br>To find out about careers <a href='careers.html'>CLICK HERE</a>";
 			
 			function slide1() {
 				document.getElementById("slideimage").src = image1;
@@ -37,6 +39,12 @@
 				document.getElementById("slideimage").src = image3;
 				document.getElementById("slideimagelink").href = link3;
 				document.getElementById("accesslink3").href = link3;
+				document.getElementById("text").innerHTML = "";
+			}
+			function slide4() {
+				document.getElementById("slideimage").src = image4;
+				document.getElementById("slideimagelink").href = link4;
+				document.getElementById("accesslink4").href = link4;
 				document.getElementById("text").innerHTML = "";
 			}
 			function mouseout() {
@@ -96,6 +104,11 @@
 				
 				<a href="#" id="accesslink3" onMouseOver="slide3();" onMouseOut="mouseout();" >
 					<div id="access3">
+					</div> <!-- Close access3 div -->
+				</a>
+				
+				<a href="#" id="accesslink4" onMouseOver="slide4();" onMouseOut="mouseout();" >
+					<div id="access4">
 					</div> <!-- Close access3 div -->
 				</a>
 				
