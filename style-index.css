@@ -46,36 +46,38 @@ left: 50%;
 margin-left: -350px;
 z-index: 1;
 }
-#access1{
+
+#bbb{
 position: absolute;
 top: 415px;
-left: 20px;
-width: 175px;
-height: 70px;
-background: url('images/index-a.png') no-repeat;
-background-color: rgba(255, 255, 255, 0.1);
-}
-#access2{
-position: absolute;
-top: 457px;
-left: 200px;
-width: 114px;
-height: 82px;
-background: url('images/index-x.png') no-repeat;
-background-color: rgba(255, 255, 255, 0.1);
-}
-
-#access3{
-position: absolute;
-top: 457px;
-left: 352px;
+left: 0px;
 width: 210px;
 height: 70px;
 background: url('images/index-b.png') no-repeat;
 background-color: rgba(255, 255, 255, 0.1);
 }
 
-#access4{
+#standrews{
+position: absolute;
+top: 457px;
+left: 220px;
+width: 175px;
+height: 70px;
+background: url('images/index-a.png') no-repeat;
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+#xxp{
+position: absolute;
+top: 457px;
+left: 422px;
+width: 114px;
+height: 82px;
+background: url('images/index-x.png') no-repeat;
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+#healthchoices{
 position: absolute;
 top: 414px;
 left: 572px;
@@ -89,26 +91,6 @@ background-color: rgba(255, 255, 255, 0.1);
 position: absolute;
 top: 60px;
 left: 150px;
-}
-
-#slideimagelinkinner1{
-position: absolute;
-left: 200px;
-top: 120px;
-width: 250px;
-height: 250px;
-background-image: url('images/link.png');
-background-color: ;
-}
-
-#slideimagelinkinner2{
-position: absolute;
-left: 180px;
-top: 160px;
-width: 280px;
-height: 160px;
-background-image: url('images/link.png');
-text-align: center;
 background-color: ;
 }
 
@@ -121,6 +103,16 @@ height: 240px;
 background-image: url('images/link.png');
 text-align: center;
 background-color:;
+}
+
+#slideimagelink{
+position: absolute;
+left: 200px;
+top: 120px;
+width: 250px;
+height: 250px;
+background-image: url('images/link.png');
+background-color: ;
 }
 
 #about{
@@ -141,7 +133,7 @@ height: 30px;
 
 #emergency{
 position: absolute;
-left: 492px;
+left: 489px;
 top: 250px;
 width: 100px;
 height: 30px;
@@ -155,6 +147,13 @@ width: 100px;
 height: 30px;
 }
 
-#sidelinks a{font-size: 14pt; color: white; text-shadow: 0px 1px grey; text-decoration: none;}
-#sidelinks a:hover{text-decoration: underline; color: coral;}
+#sidelinks div{font-size: 14pt; color: white; text-shadow: 0px 1px grey; text-decoration: none; -webkit-transition: color 1s ease; 
+			-ms-transition: color 1s ease; -moz-transition: color 1s ease; -o-transition: color 1s ease;}
+#sidelinks div:hover{text-decoration: underline; color: coral; cursor: pointer;}
 
+/**********/ /*CSS3 stuff that can be used --> From: 	CSS Tansitions	http://www.youtube.com/watch?v=xetgON6bE9s */
+/* {-webkit-transition: color 1s ease;
+	-webkit-transition: opacity 1s ease;
+	-webkit-transition: background 0.5s ease;}
+ */
+/**********/

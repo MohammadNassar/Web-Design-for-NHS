@@ -34,7 +34,7 @@ width: 100%;
 height: 120px;
 background-color: rgba(255, 255, 255, 0.5);
 }
-.title1{position: absolute; top: 20px; left: 165px; width: 600px; height: 50px;}
+.title-all{position: absolute; top: 35px; left: 140px; width: 600px; height: 50px;}
 .logo{position: absolute; top: 15px; left: 10px; width: 120px; height: 110px;}
 .nhslogo{position: absolute; top: 20px; right: 10px; width: 120px; height: 80px;}
 
@@ -76,28 +76,18 @@ min-height: 300px;
 margin-right: auto;
 margin-left: auto;
 text-align: center;
-padding: 50px 25px;
+padding: 10px 0px 50px 0px;
 background-color: ;
 }
+.leftcolumn{width: 50%; height: ; float: left;}
+.rightcolumn{width: 50%; height: ; float: left;}
 
-table {
-position: relative;
-float: left;
-border: 1px solid green;
-width: 150px;
-min-height: 60px;
-margin: 10px;
-text-align: left;
-}
-table caption{
-line-height: 30px;
-border: 1px solid green;
-border-bottom: none;
-background: url('images/tabletitle.png');
-font-size: 13pt;
-text-decoration: italic;
-text-shadow: 0px 2px white;
-}
+.jobstable{ min-width: 800px; min-height: 60px; margin: 10px auto; text-align: center; //border-collapse: collapse; }
+.jobstable, th, td{ border: 1px solid #D0C9D0; }
+.jobstable tr{ line-height: 30px; border: 1px solid #D0C9D0; border-bottom: none; font-size: 13pt; //text-shadow: 0px 1px chocolate; }
+.jobstable th{ height: 50px; background-color: #C2C2E0; color: white; }
+.jobstable td{ vertical-align: middle; text-align: center; padding: 2px; }
+.jobstable .shade{ background-color: #eeeeee; }
 
 #rightbar{
 position: relative;

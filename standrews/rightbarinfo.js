@@ -7,7 +7,7 @@ var fri = "<tr><td>Fri:</td><td>8am - 8pm</td></tr>";
 var sat = "<tr><td>Sat:</td><td>CLOSED</td></tr>";
 var sun = "<tr><td>Sun:</td><td>CLOSED</td></tr>";
 var openingtimes = "<b>Opening Times:</b><table>"+mon+tues+wed+thur+fri+sat+sun+"</table></br></br>";
-var contactinfo = "<b>Tel:</b> 020 8980 1888 </br></br><b>Emergency Tel / </br><i>out of hours service:</b></i></br></br>020 7377 7151";
+var contactinfo = "<b>Tel:</b> 020 8980 1888 </br><b>Fax:</b>  020 8980 2753</br></br><b>Emergency Tel / </br><i>out of hours service:</b></i></br></br>020 7377 7151";
 
 function display(){
 	var time = new Date();
