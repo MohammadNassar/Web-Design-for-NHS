@@ -30,8 +30,8 @@ position: absolute;
 background: url('images/loader.gif');
 width: 20px;
 height: 20px;
-left: 340px;
-top: 350px;
+left: 380px;
+top: 420px;
 }
 
 #topimage{
@@ -54,7 +54,6 @@ left: 0px;
 width: 210px;
 height: 70px;
 background: url('images/index-b.png') no-repeat;
-background-color: rgba(255, 255, 255, 0.1);
 }
 
 #standrews{
@@ -64,7 +63,6 @@ left: 220px;
 width: 175px;
 height: 70px;
 background: url('images/index-a.png') no-repeat;
-background-color: rgba(255, 255, 255, 0.1);
 }
 
 #xxp{
@@ -74,17 +72,15 @@ left: 422px;
 width: 114px;
 height: 82px;
 background: url('images/index-x.png') no-repeat;
-background-color: rgba(255, 255, 255, 0.1);
 }
 
 #healthchoices{
 position: absolute;
 top: 414px;
 left: 572px;
-width: 160px;
-height: 70px;
-background: url('images/index-hc.png') no-repeat;
-background-color: rgba(255, 255, 255, 0.1);
+width: 180px;
+height: 40px;
+background: url('images/index-ha.png') no-repeat;
 }
 
 #slideimage{

@@ -3,14 +3,17 @@ var element = new Array();
 var usernamekey = new Array();
 var passwordkey = new Array();
 
-usernamekey[0] = "ahmeds";
-passwordkey[0] = "ahmedlondon123";
+//usernamekey[0] = "";
+//passwordkey[0] = "";
 
-usernamekey[1] = "cassellse";
-passwordkey[1] = "cassellslondon123";
+usernamekey[1] = "";
+passwordkey[1] = "";
 
-usernamekey[2] = "jacksoni";
-passwordkey[2] = "jacksonlondon123";
+usernamekey[2] = "";
+passwordkey[2] = "";
+
+usernamekey[3] = "";
+passwordkey[3] = "";
 
 var counter = 0;
 

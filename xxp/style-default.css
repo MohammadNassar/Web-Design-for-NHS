@@ -35,7 +35,7 @@ height: 120px;
 background-color: rgba(255, 255, 255, 0.5);
 }
 .title1{background: url('images/title-all.png') no-repeat; position: absolute; top: 20px; left: 265px; width: 400px; height: 40px;}
-.title2{background: url('images/title-xxp.png') no-repeat; position: absolute; top: 70px; left: 270px; width: 400px; height: 50px;}
+.title2{background: url('images/title-xxp.png') no-repeat; position: absolute; top: 70px; left: 270px; width: 400px; height: 55px;}
 .logo{position: absolute; top: 15px; left: 10px; width: 120px; height: 110px;}
 .nhslogo{position: absolute; top: 20px; right: 10px; width: 120px; height: 80px;}
 
@@ -123,27 +123,28 @@ background-color: ;
 #leftbar{
 position: relative;
 float: left;
-top: 10px;
+top: 160px;
 left: 5px;
 width: 160px;
 min-height: 300px;
+margin-bottom: 20px;
 background-color: ;
 }
 .aboutus{
-position: relative; top: 10px; left: 2px; width: 150px; height: 100px; background: url('images/services1.png') no-repeat;}
-.aboutus:hover{background: url('images/services2.png') no-repeat;}
+position: relative; width: 150px; height: 40px; background: url('images/aboutus1.png') no-repeat; margin: 0px 0px;}
+.aboutus:hover{background: url('images/aboutus2.png') no-repeat;}
 .contactus{
-position: relative; top: 10px; left: 2px; width: 150px; height: 100px; background: url('images/services1.png') no-repeat;}
-.contactus:hover{background: url('images/services2.png') no-repeat;}
+position: relative; width: 150px; height: 40px; background: url('images/contactus1.png') no-repeat; margin: 0px 0px;}
+.contactus:hover{background: url('images/contactus2.png') no-repeat;}
 .findus{
-position: relative; top: 10px; left: 2px; width: 150px; height: 100px; background: url('images/services1.png') no-repeat;}
-.findus:hover{background: url('images/services2.png') no-repeat;}
+position: relative; width: 150px; height: 40px; background: url('images/findus1.png') no-repeat; margin: 0px 0px;}
+.findus:hover{background: url('images/findus2.png') no-repeat;}
 .services{
-position: relative; top: 10px; left: 2px; width: 150px; height: 100px; background: url('images/services1.png') no-repeat;}
+position: relative; width: 150px; height: 40px; background: url('images/services1.png') no-repeat; margin: 0px 0px;}
 .services:hover{background: url('images/services2.png') no-repeat;}
 .staff{
-position: relative; top: 10px; left: 2px; width: 150px; height: 100px; background: url('images/services1.png') no-repeat;}
-.staff:hover{background: url('images/services2.png') no-repeat;}
+position: relative; width: 150px; height: 40px; background: url('images/staff1.png') no-repeat; margin: 0px 0px;}
+.staff:hover{background: url('images/staff2.png') no-repeat;}
 
 .leftnav{position: relative; width: 80%; height: 100%; margin-left: 0px; 
 				background-color: #; z-index: 1;}

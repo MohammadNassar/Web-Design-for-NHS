@@ -1,0 +1,38 @@
+____________________
+
+CQC Widgets:
+http://www.cqc.org.uk/how-get-and-re-use-cqc-information-data/cqc-widget-%E2%80%93-help-and-frequently-asked-questions
+____________________
+
+Bromley By Bow Health Centre:
+http://www.cqc.org.uk/directory/1-544585591
+http://www.cqc.org.uk/widget_code/1-544585591
+----------
+CQC Widget:
+<iframe title="CQC Widget for Bromley by Bow Health Centre" src="http://www.cqc.org.uk/widget/1-544585591" width="250" height="300" border="0" frameborder="0" scrolling="no"><p><a href="http://www.cqc.org.uk/directory/1-544585591?referer=widget1">Care Quality Commission page on Bromley by Bow Health Centre</a></p></iframe>
+____________________
+
+St Andrew's Health Centre:
+http://www.cqc.org.uk/directory/1-544585608
+http://www.cqc.org.uk/widget_code/1-544585608
+----------
+CQC Widget:
+<iframe title="CQC Widget for St Andrews Health Centre" src="http://www.cqc.org.uk/widget/1-544585608" width="250" height="300" border="0" frameborder="0" scrolling="no"><p><a href="http://www.cqc.org.uk/directory/1-544585608?referer=widget1">Care Quality Commission page on St Andrews Health Centre</a></p></iframe>
+____________________
+
+XX Place Surgery:
+http://www.cqc.org.uk/directory/1-544585625
+http://www.cqc.org.uk/widget_code/1-544585625
+----------
+CQC Widget:
+<iframe title="CQC Widget for XX Place Surgery" src="http://www.cqc.org.uk/widget/1-544585625" width="250" height="300" border="0" frameborder="0" scrolling="no"><p><a href="http://www.cqc.org.uk/directory/1-544585625?referer=widget1">Care Quality Commission page on XX Place Surgery</a></p></iframe>
+____________________
+
+Mile End Hospital:
+http://www.cqc.org.uk/directory/r1h13
+http://www.cqc.org.uk/widget_code/r1h13
+----------
+CQC Widget:
+<iframe title="CQC Widget for Mile End Hospital" src="http://www.cqc.org.uk/widget/r1h13" width="250" height="300" border="0" frameborder="0" scrolling="no"><p><a href="http://www.cqc.org.uk/directory/r1h13?referer=widget1">Care Quality Commission page on Mile End Hospital</a></p></iframe>
+____________________
+
