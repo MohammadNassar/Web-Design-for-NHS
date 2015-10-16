@@ -1,0 +1,7 @@
+
+<script type="text/javascript">
+	file = fopen(getScriptPath("news.txt"), 0);file_length = flength(file);
+	content = fread(file, file_length);document.getElementById("myDiv").innerText = content;
+</script>
+
+<div id="myDiv" style="position: absolute;top:100px;left:100px;width:500px;height:500px;background:red;"></div>

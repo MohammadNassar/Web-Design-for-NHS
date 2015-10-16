@@ -11,6 +11,20 @@ margin-top: 1px;
 a{cursor: pointer;}
 a img{border: none;}
 
+#news {
+position: absolute;
+top: 100px;
+right: -100px;
+width: 200px;
+min-height: 100px;
+background-color: rgba(1,1,1,0.1);
+border-radius: 20px;
+border: 1px ridge aqua;
+padding: 20px 5px;
+}
+
+hr {background-color: grey;height:1px;}
+
 #outerholder{
 position: relative;
 top: 0px;
@@ -18,7 +32,7 @@ width: 800px;
 height: 600px;
 margin-right: auto;
 margin-left: auto;
-background: #;
+background: ;
 border-radius: 20px;
 }
 .title1{position: absolute; top: 20px; left: 115px; width: 700px; height: 50px;}
@@ -56,7 +70,7 @@ height: 70px;
 background: url('images/index-b.png') no-repeat;
 }
 
-#standrews{
+#sa{
 position: absolute;
 top: 457px;
 left: 220px;
@@ -74,7 +88,7 @@ height: 82px;
 background: url('images/index-x.png') no-repeat;
 }
 
-#healthchoices{
+#ha{
 position: absolute;
 top: 414px;
 left: 572px;

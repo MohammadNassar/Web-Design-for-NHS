@@ -4,6 +4,7 @@
 	<head>
 		<title>Staff - Bromley by Bow Health Centre</title>
 		<link type="text/css" href="style-default.css" rel="stylesheet"></link>
+		<script src="javascript/leftbarmove.js"></script>
 	</head>
 	<body>
 		<div id="holder">
@@ -11,20 +12,20 @@
 			<div id="header">
 				<div class="title1"> </div>
 				<div class="title2"> </div>
-				<div class="logo"> <a href="../index.html"> <img src="images/logo.png" width="100" height="100" alt="Logo2" border="none" /> </a> </div>
+				<div class="logo"> <a href="../index.php"> <img src="images/logo.png" width="100" height="100" alt="Logo2" border="none" /> </a> </div>
 				<div class="nhslogo"> <img src="images/nhs.png" width="120" height="50" alt="Logo3" /> </div>
 			</div> <!-- Close header div -->
 			
 			<div id="topbar">
 				<div class="topnav">
 					<ul>
-						<li><a href="home.html">Home</a>
+						<li onMouseOver="movedown();" onMouseOut="moveup();"><a href="home.html">Home</a>
 							<ul>
-								<a href="../index.html"><li>Main Page</li></a>
+								<a href="../index.php"><li>Main Page</li></a>
 								<a href="../bbb/home.html"><li>Bromley by Bow</li></a>
-								<a href="../standrews/home.html"><li>St. Andrew's</li></a>
+								<a href="../sa/home.html"><li>St. Andrew's</li></a>
 								<a href="../xxp/home.html"><li>XX Place</li></a>
-								<a href="../healthchoices/home.html"><li>Health Advice</li></a>
+								<a href="../ha/home.html"><li>Health Advice</li></a>
 							</ul>
 						</li>
 						<li><a href="appointandpresc.html">Appointments & Prescriptions</a>
@@ -36,8 +37,8 @@
 						<li><a href="onlineaccess.html">Online Access</a>
 							<ul>
 								<a href="howitworks.html"><li>How It Works</li></a>
-								<a href="appointmentsonline.html"><li>Book an Appointment</li></a>
-								<a href="prescriptionsonline.html"><li>Prescriptions</li></a>
+								<a href="appointmentsonline.html"><li>Book an Appointment Online</li></a>
+								<a href="prescriptionsonline.html"><li>Prescriptions Online</li></a>
 								<a href="registrations.html"><li>Registrations</li></a>
 							</ul>
 						</li>
@@ -51,7 +52,7 @@
 						</li>
 						<li><a href="noticeboard.html">Notice Board</a>
 							<ul>
-								<a href="news.html"><li>News</li></a>
+								<a href="news.php"><li>News</li></a>
 								<a href="events.html"><li>Events</li></a>
 							</ul>
 						</li>
@@ -73,7 +74,7 @@
 				</div> <!-- Close leftbar div -->
 			
 				<div id="content">
-									<div class="directory"> <a href="home.html">Home</a> <div class="arrow"></div> Staff <span style="float:right;font-weight:bold;"><a href="stafftimesview.php">View Staff Times</a></span></div> <!-- Close directory div -->
+									<div class="directory"> <a href="home.html">Home</a> <div class="arrow"></div> Staff </div> <!-- Close directory div -->
 					
 					<div class="leftcolumn">
 						
@@ -191,7 +192,7 @@
 				<div id="rightbar">
 					
 					<div id="times">
-						<script src="rightbarinfo.js"></script>
+						<script src="javascript/rightbarinfo.js"></script>
 					</div>
 					
 				</div> <!-- Close rightbar div -->
@@ -200,7 +201,7 @@
 			
 			<div id="footer">
 				<div id="footerlinks">
-					<a href="../index.html"> Main Partnership Page </a>
+					<a href="../index.php"> Main Partnership Page </a>
 					<a href="about.html"> About Us </a>
 					<a href="contact.html"> Contact Us </a>
 					<a href="services.html"> Services </a>
@@ -238,7 +239,7 @@
 				<br /><br />
 				
 				<div id="footerinfo">
-					<script src="footerinfo.js"></script>
+					<script src="javascript/footerinfo.js"></script>
 				</div>
 				
 				<p>&copy; Bromley by Bow Health Partnership</p>

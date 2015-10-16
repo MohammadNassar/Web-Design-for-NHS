@@ -1,0 +1,23 @@
+
+DONE
+ - Topnav positioning
+
+DONE
+ - Links to 'Main Page' to be index.php instead of index.html
+
+DONE
+ - To check the colours of sections' border in the 'Health Advice' site and change them if required, also to make these borders' size slightly bigger, e.g. 2px instead of 1px;
+
+ - To look at names of images and change them according to new changes, e.g. names of sites.
+
+ - Healthy Living page --> Titles.
+
+DONE
+ - HA Site --> NHS Choices sections' border colours.
+
+ - To check correctness of text in the 'Directory' div in all webpages that have it.
+
+ - To check for spelling mistakes or any strange symbols in text in all webpages.
+
+ - To check correctness of contents in all webpages.
+

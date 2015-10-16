@@ -46,12 +46,10 @@ width: 100%;
 height: 30px;
 background-image: url('images/buttontop1.png');
 }
-.topnav{position: relative; width: 750px; height: 100%; margin-left: 140px; 
-				background-color: #; z-index: 10;}
+.topnav{position: relative; width: 750px; height: 100%; margin-left: 170px; background-color: #; z-index: 10;}
 .topnav ul{list-style: none; margin: 0px; padding: 0px;}
 .topnav li{float: left; min-width: 100px; background-image: url('images/buttontop1.png'); padding: 0px 5px; 
-				border: 1px solid #; text-align: center; position: relative; height: 30px; 
-				line-height: 30px;}
+				border: 1px solid #; text-align: center; position: relative; height: 30px; line-height: 30px;}
 .topnav li ul li{float: none; min-width: 100px;  padding: 0px 5px; text-align: left; margin-top: 0px; text-align:center;}
 .topnav li ul{position: relative; visibility: hidden; top: 0px; left: 0px;}
 .topnav li:hover ul{visibility: visible;}
@@ -150,7 +148,7 @@ background-color: ;
 text-align: center;
 line-height: 40px;
 }
-.logo-patients{position: relative; background: url('images/logo-patients.png') no-repeat; float: left; margin: 10px 10px; width: 117px; height: 25px;}
+.logo-patients{position: relative; background: url('images/logo-patients.png') no-repeat; float: left; left: 20px; margin: 10px 10px; width: 117px; height: 25px;}
 .logo-cqc{position: relative; background: url('images/logo-cqc.png') no-repeat; float: left; margin: 10px 10px; width: 80px; height: 26px;}
 .logo-nhschoices{position: relative; background: url('images/logo-nhschoices.png') no-repeat; float: left; margin: 10px 10px; width: 100px; height: 28px;}
 .logo-nhsdirect{position: relative; background: url('images/logo-nhsdirect.png') no-repeat; float: left; margin: 10px 10px; width: 54px; height: 40px;}
