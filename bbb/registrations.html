@@ -32,6 +32,7 @@
 							<ul>
 								<a href="appointments.html"><li>Book an Appointment</li></a>
 								<a href="prescriptions.html"><li>Prescriptions</li></a>
+								<a href="registrations.html"><li>Registrations</li></a>
 							</ul>
 						</li>
 						<li><a href="onlineaccess.html">Online Access</a>
@@ -39,7 +40,6 @@
 								<a href="howitworks.html"><li>How It Works</li></a>
 								<a href="appointmentsonline.html"><li>Book an Appointment Online</li></a>
 								<a href="prescriptionsonline.html"><li>Prescriptions Online</li></a>
-								<a href="registrations.html"><li>Registrations</li></a>
 							</ul>
 						</li>
 						<li><a href="patientfirst.html">Patient First</a>
@@ -78,8 +78,22 @@
 									
 					<span align="left">
 						<h3 align=center>Registering as a patient</h3>
-						<p>We are currently working on this page! We apologize for any inconvenience!</p>
-						<h4 align=center>Estimated date of arrival: Sept 2013</h4>
+						<p>Registration of new patients takes place during opening hours. Please bring with you:</p>
+						<ul>
+						<li>Proof of your address e.g. a recent household bill or rent book</li>
+						<li>If you have a medical Card, please bring this with you as this will help us obtain your previous records.</li>
+						</ul>
+						
+						<h4>Check to see if you are eligible to register!</h4>
+
+						<script src="javascript/postcodechecker.js"></script>
+						
+						To check if you fall within our catchment area, please enter your post code here and press Check
+						<br />
+						<input type="text" name="text" id="name" />
+						<input type="button" value="Check" onclick="checkarea();" />
+						<div id="postcodeapproval"></div>
+						
 				</div> <!-- Close content div -->
 				
 				<div id="rightbar">

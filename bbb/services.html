@@ -32,6 +32,7 @@
 							<ul>
 								<a href="appointments.html"><li>Book an Appointment</li></a>
 								<a href="prescriptions.html"><li>Prescriptions</li></a>
+								<a href="registrations.html"><li>Registrations</li></a>
 							</ul>
 						</li>
 						<li><a href="onlineaccess.html">Online Access</a>
@@ -39,7 +40,6 @@
 								<a href="howitworks.html"><li>How It Works</li></a>
 								<a href="appointmentsonline.html"><li>Book an Appointment Online</li></a>
 								<a href="prescriptionsonline.html"><li>Prescriptions Online</li></a>
-								<a href="registrations.html"><li>Registrations</li></a>
 							</ul>
 						</li>
 						<li><a href="patientfirst.html">Patient First</a>

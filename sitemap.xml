@@ -1,26 +1,352 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
-  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-  <url> 
-    <loc>http://www.example.com/foo.html</loc> 
-    <image:image>
-       <image:loc>http://example.com/image.jpg</image:loc> 
-    </image:image>
-    <video:video>     
-      <video:content_loc>
-        http://www.example.com/video123.flv
-      </video:content_loc>
-      <video:player_loc allow_embed="yes" autoplay="ap=1">
-        http://www.example.com/videoplayer.swf?video=123
-      </video:player_loc>
-      <video:thumbnail_loc>
-        http://www.example.com/thumbs/123.jpg
-      </video:thumbnail_loc>
-      <video:title>Grilling steaks for summer</video:title>  
-      <video:description>
-        Get perfectly done steaks every time
-      </video:description>
-    </video:video>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.bbbhp.co.uk/</loc>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/about.html</loc>
+  <lastmod>2013-08-27T14:41:05+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/careers.html</loc>
+  <lastmod>2013-08-27T14:41:06+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/home.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/home.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/home.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/home.html</loc>
+  <lastmod>2013-08-27T14:41:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/news.php</loc>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/news.php</loc>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/news.php</loc>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/index.php</loc>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/appointandpresc.html</loc>
+  <lastmod>2013-08-27T14:50:32+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/appointments.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/prescriptions.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/onlineaccess.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/howitworks.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/appointmentsonline.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/prescriptionsonline.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/registrations.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/patientfirst.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/patientgroup.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/patientcharter.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/complaints.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/towerhamletshealthwatch.html</loc>
+  <lastmod>2013-08-27T14:50:34+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/noticeboard.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/events.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/about.html</loc>
+  <lastmod>2013-08-27T14:50:32+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/contact.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/findus.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/services.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/staff.html</loc>
+  <lastmod>2013-08-27T14:50:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/appointandpresc.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/appointments.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/prescriptions.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/onlineaccess.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/howitworks.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/appointmentsonline.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/prescriptionsonline.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/registrations.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/walkincentre.html</loc>
+  <lastmod>2013-08-27T14:57:34+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/patientfirst.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/patientgroup.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/patientcharter.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/complaints.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/diy.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/towerhamletshealthwatch.html</loc>
+  <lastmod>2013-08-27T14:57:34+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/noticeboard.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/events.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/about.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/contact.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/findus.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/services.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/staff.html</loc>
+  <lastmod>2013-08-27T14:57:33+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/appointandpresc.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/appointments.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/prescriptions.html</loc>
+  <lastmod>2013-08-27T14:57:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/onlineaccess.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/howitworks.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/appointmentsonline.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/prescriptionsonline.html</loc>
+  <lastmod>2013-08-27T14:57:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/registrations.html</loc>
+  <lastmod>2013-08-27T14:57:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/patientfirst.html</loc>
+  <lastmod>2013-08-27T14:57:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/patientgroup.html</loc>
+  <lastmod>2013-08-27T14:57:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/patientcharter.html</loc>
+  <lastmod>2013-08-27T14:57:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/complaints.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/towerhamletshealthwatch.html</loc>
+  <lastmod>2013-08-27T14:57:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/noticeboard.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/events.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/about.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/contact.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/findus.html</loc>
+  <lastmod>2013-08-27T14:57:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/services.html</loc>
+  <lastmod>2013-08-27T14:57:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/staff.html</loc>
+  <lastmod>2013-08-27T14:57:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/healthorg.html</loc>
+  <lastmod>2013-08-27T14:41:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/inmyarea.html</loc>
+  <lastmod>2013-08-27T14:41:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/healthyliving.html</loc>
+  <lastmod>2013-08-27T14:41:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/children.html</loc>
+  <lastmod>2013-08-27T14:41:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/young.html</loc>
+  <lastmod>2013-08-27T14:41:19+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/adults.html</loc>
+  <lastmod>2013-08-27T14:41:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/lateryears.html</loc>
+  <lastmod>2013-08-27T14:41:19+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/bbb/staffaccess.php</loc>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/sa/staffaccess.php</loc>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/staffaccess.php</loc>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/keepingfit.html</loc>
+  <lastmod>2013-08-27T14:41:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/eatinghealthy.html</loc>
+  <lastmod>2013-08-27T14:41:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/smokingcessation.html</loc>
+  <lastmod>2013-08-27T14:41:19+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/ha/sexualhealth.html</loc>
+  <lastmod>2013-08-27T14:41:19+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.bbbhp.co.uk/xxp/careers.html</loc>
+</url>
 </urlset>

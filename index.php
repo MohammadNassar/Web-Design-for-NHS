@@ -4,6 +4,7 @@
 	<head>
 		<title>Welcome to the Bromley by Bow Health Partnership</title>
 		<link type="text/css" href="style-index.css" rel="stylesheet"></link>
+		<link rel="shortcut icon" href="images/logo.ico">
 		
 		<script type="text/javascript">
 			var image = new Array();
@@ -24,7 +25,7 @@
 			var titlestyle = "<span style='color:blue;font-size:15pt;'>";
 			
 			text['about'] = titlestyle+"<b>About Us</b></span><br><br>Info about About us<br><a href='about.html'>Click Here</a>";
-			text['contact'] = titlestyle+"<b>Contact Us</b></span><br><b>Bromley by Bow Health Centre</b><br><b>Telephone:</b> 0844 815 1020<br><b>Fax:</b> 020 8983 4098<br><br><b>St Andrew's Health Centre</b><br><b>Telephone:</b> 020 8980 1888<br><b>Fax:</b> 020 89802753<br><br><b>XX Place</b><br><b>Telephone:</b> 08448151020<br><b>Fax:</b> 020 7702 7024<br><br>";
+			text['contact'] = titlestyle+"<b>Contact Us</b></span><br><b>Bromley by Bow Health Centre</b><br><b>Telephone:</b> 0844 815 1020<br><b>Fax:</b> 0208 983 4098<br><br><b>St Andrew's Health Centre</b><br><b>Telephone:</b> 0208 980 1888<br><b>Fax:</b> 0208 980 2753<br><br><b>XX Place</b><br><b>Telephone:</b> 0844 815 1020<br><b>Fax:</b> 0844 815 1021<br><br>";
 			text['emergency'] = titlestyle+"<b>Emergency Care</b></span><br>If you need urgent advice, ring the put-of-hours service on <br><b>020 7377 7151</b>.<br>You may wish to contact NHS Direct either by phone on <b>0845 4647</b> or online at <a href='http://www.nhsdirect.nhs.uk'>www.nhsdirect.nhs.uk</a> .<br>If an <u>ambulance is needed</u>, call 999, the emergency phone number in the UK. You can also dial 112, which is the ambulance number throughout the European Union.";
 			text['careers'] = titlestyle+"<b>Careers</b></span><br><br><br><br>Brief information on careers<br>To find out about careers <a href='careers.html'>CLICK HERE</a>";
 			

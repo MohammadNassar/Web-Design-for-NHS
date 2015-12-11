@@ -47,7 +47,7 @@ width: 100%;
 height: 30px;
 background-image: url('images/buttontop1.png');
 }
-.topnav{position: relative; width: 100%; height: 100%; margin-left: 10px; background-color: #; z-index: 10;}
+.topnav{position: relative; width: 100%; height: 100%; margin-left: 13px; background-color: #; z-index: 10;}
 .topnav ul{list-style: none; margin: 0px; padding: 0px;}
 .topnav li{float: left; min-width: 100px; background-image: url('images/buttontop1.png'); padding: 0px 5px; 
 				border: 1px solid #; text-align: center; position: relative; height: 30px; line-height: 30px;}
@@ -56,7 +56,9 @@ background-image: url('images/buttontop1.png');
 .topnav li:hover ul{visibility: visible;}
 .topnav li:hover{background-image: url('images/buttontop2.png');}
 .topnav li:active{color: purple;}
-.topnav a{text-decoration: none; color: #41148c; text-shadow: 0px 1px white; font-weight: ;}
+.topnav a{text-decoration: none; color: #00297A; text-shadow: 0px 1px white; font-weight: ;}
+.topnav .bigger li{max-width:100%; height:60px; background-image: url('images/buttontop1-bigger.png');}
+.topnav .bigger li:hover{background-image: url('images/buttontop2-bigger.png');}
 
 #bodyholder{
 position: relative;
@@ -83,7 +85,7 @@ background-color: ;
 .rightcolumn{width: 50%; height: ; float: left;}
 
 .directory {position: relative; width: 100%; height: 20px; margin-bottom: 10px; line-height: 20px; font-size: 10.5pt; background-color: #eeeeee;}
-.directory a{float: left; margin: 0px 10px; text-decoration: none;}
+.directory a{float: left; margin: 0px 10px; text-decoration: none; color: #00297A;}
 .directory a:hover{text-decoration: underline;}
 .arrow {background: url('images/arrow.png') no-repeat; width: 20px; height: 20px; float: left; margin-right: 10px;}
 

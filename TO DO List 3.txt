@@ -1,0 +1,42 @@
+____________________
+DONE
+ - Fax number of xx place is different on xx place site than on index page in contact div.
+____________________
+DONE
+ - To make proper spaces between phone & fax numbers in index page in contact div.
+____________________
+ - To manage styling of the 'notfound' page when accessed from sites other than the root/index folder.
+____________________
+DONE
+ - In 'Organisations that support your health' page in 'Health Advice' site, to move the last section-div from the right column to the left column.
+____________________
+DONE
+ - In 'Young' page in 'Health Advice' site, to change border size & hr size of last section-div in the right column from 1px to 2px.
+____________________
+DONE
+ - In 'Adults' page in 'Health Advice' site, to move the last section-div from the left column to the right column.
+____________________
+Only done in index page, but still under development!!
+
+ - To add a browser tab icon in all webpages using the following code:
+----------
+<link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+----------
+Source:
+How to add a browser tab icon for a website?:
+http://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-for-a-website
+____________________
+Done - Has been put in a div, but will needs more details!!
+
+ - In 'Adults' page in 'Health Advice' site, to manage the link in the top of the page.
+____________________
+DONE
+ - To add the information/content about 'Vission Mission Values', in the 'About' page of the Partnership.
+____________________
+DONE
+ - To change the health advice image in the index page.
+____________________
+ - To start doing the 'Counter' feature/function on the website.
+____________________
+ - To make a comprehensive planning for the guide book.
+____________________
