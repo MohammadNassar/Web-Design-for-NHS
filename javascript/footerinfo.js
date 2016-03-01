@@ -1,15 +1,15 @@
 
 var logoinfo = new Array();
 
-logoinfo['patients'] = "patients Info";
-logoinfo['cqc'] = "cqc Info";
-logoinfo['nhschoices'] = "nhschoices Info";
-logoinfo['nhsdirect'] = "nhsdirect Info";
-logoinfo['depofhealth'] = "depofhealth Info";
-logoinfo['nhs111'] = "nhs111 Info";
-logoinfo['netdoctor'] = "netdoctor Info";
-logoinfo['bartshealth'] = "bartshealth Info";
-logoinfo['nhsengland'] = "nhsengland Info";
+logoinfo['patients'] = "Patient - Trusted medical information and support";
+logoinfo['cqc'] = "Care Quality Commission - Checker of national standards of care services";
+logoinfo['nhschoices'] = "NHS Choices - Your health, your choices";
+logoinfo['nhsdirect'] = "NHS Direct - Delivering multichannel health services for patients";
+logoinfo['depofhealth'] = "Department of Health - Helping people to live better";
+logoinfo['nhs111'] = "NHS 111 Service - Call 111 when it's less urgent than 999";
+logoinfo['netdoctor'] = "NetDoctor - Presenting medical information in a clear and understandable language";
+logoinfo['bartshealth'] = "Barts Health - Providing care services where it is needed most";
+logoinfo['nhsengland'] = "NHS England - High quality care for all, now and for future generations";
 
 function showFooterInfo(name){
 	document.getElementById('footerinfo').innerHTML = logoinfo[name];

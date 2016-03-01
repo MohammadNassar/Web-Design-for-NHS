@@ -5,10 +5,10 @@ margin-right: auto;
 margin-left: auto;
 margin-top: 1px;
 }
-*{
-font-family: calibri;
-}
+*{font-family: calibri;}
+a{color: #A30052;}
 a img{border: none;}
+h1, h2, h3, h4, h5, h6{color: #A30052;}
 /* * a{}
 * ul {list-style-image: url('');} */
 
@@ -92,17 +92,13 @@ background-color: ;
 table {
 position: relative;
 float: left;
-//border: 1px solid green;
 width: 150px;
 min-height: 60px;
-margin: 10px;
 text-align: left;
 }
 table caption{
 line-height: 30px;
-//border: 1px solid green;
 border-bottom: none;
-//background: url('images/tabletitle.png');
 font-size: 13pt;
 text-decoration: italic;
 font-weight: bold;

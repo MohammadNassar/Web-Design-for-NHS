@@ -1,0 +1,35 @@
+____________________
+ - The job application pack !?!
+____________________
+ - Telephones of 'bbb' and 'xxp' are the same !?!
+____________________
+DONE - (They are different)
+ - Is the post code checking for all sites the same or different??
+____________________
+DONE
+ - Use the 'onsubmit' attribute in the form element of the 'contact' page to control the necessary fields.
+____________________
+ - To move the 'news' section in the 'index' page from the right side to the bottom, and make the scrolling horizontal.
+____________________
+DONE
+ - Ensure that the image file: 'temp-img.JPG' is no longer used in the webpages of all main 3 sites, and then delete it from the 'images' folder accordingly.
+____________________
+ - To enhance the 'date and time' in the rightbar of the main 3 sites, by adding the date and use a good & suitable format of date and time.
+____________________
+ - Deisgn and add a list style image -(using the logo)- for the bullet points in the website.
+____________________
+ - Is the word 'either' in the Guide Booklet grammatically correct.
+____________________
+ - To slightly increase the height of the content div in the main 3 sites so that the refresh of the rightbar's content does not act strangely when scrolling to the bottom of the page in Microsoft Internet Explorer.
+____________________
+ - To add in ethe footer on the right side the following:
+Designed by: Mohammad and Lehang (and then after this add the Queen Mary Logo linked to the website of the Queen Mary Careers)
+____________________
+ - Add info in 'index' page in the 2 sections called: 'About' and 'Careers'.
+____________________
+ - Add all footer logo images in a separate folder.
+____________________
+ - Find out if I should add the pdf file in the following link in the 'walkincentre' page in the St Andrew's Health Centre website.
+Link of PDF File:
+http://www.standrewswalkincentre.nhs.uk/d/StAndrewsWalkInCentre.pdf
+____________________

@@ -2,19 +2,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns = "http://www.w3.org/1999/xhtml">
 	<head>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> <link rel="shortcut icon" href="images/logo.png" type="image/png">
 		<title>Welcome to the Bromley by Bow Health Partnership</title>
 		<link type="text/css" href="style-index.css" rel="stylesheet"></link>
-		<link rel="shortcut icon" href="images/logo.ico">
+		
+		<meta name="description" content="Welcome to the Bromley by Bow Health Partnership's Official Website">
+		<meta name="keywords" content="bbbhp,bbb,sa,xxp,ha,bromley by bow health partnership,bromley by bow health centre,st andrew's health centre,xx place surgery,health advice,health,clinic,surgery,hospital,nhs,london health">
+		<meta name="author" content="Bromley by Bow Health Partnership">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		
 		<script type="text/javascript">
 			var image = new Array();
 			var link = new Array();
 			var text = new Array();
 			
-			image['bbb'] = "images/slideimage3.png";
-			image['sa'] = "images/slideimage1.png";
-			image['xxp'] = "images/slideimage2.png";
-			image['ha'] = "images/slideimage4.png";
+			image['bbb'] = "images/indeximage1.png";
+			image['sa'] = "images/indeximage2.png";
+			image['xxp'] = "images/indeximage3.png";
+			image['ha'] = "images/indeximage4.png";
 			welcomeimage = "images/circle.png";
 			
 			link['bbb'] = "bbb/home.html";
@@ -25,8 +30,8 @@
 			var titlestyle = "<span style='color:blue;font-size:15pt;'>";
 			
 			text['about'] = titlestyle+"<b>About Us</b></span><br><br>Info about About us<br><a href='about.html'>Click Here</a>";
-			text['contact'] = titlestyle+"<b>Contact Us</b></span><br><b>Bromley by Bow Health Centre</b><br><b>Telephone:</b> 0844 815 1020<br><b>Fax:</b> 0208 983 4098<br><br><b>St Andrew's Health Centre</b><br><b>Telephone:</b> 0208 980 1888<br><b>Fax:</b> 0208 980 2753<br><br><b>XX Place</b><br><b>Telephone:</b> 0844 815 1020<br><b>Fax:</b> 0844 815 1021<br><br>";
-			text['emergency'] = titlestyle+"<b>Emergency Care</b></span><br>If you need urgent advice, ring the put-of-hours service on <br><b>020 7377 7151</b>.<br>You may wish to contact NHS Direct either by phone on <b>0845 4647</b> or online at <a href='http://www.nhsdirect.nhs.uk'>www.nhsdirect.nhs.uk</a> .<br>If an <u>ambulance is needed</u>, call 999, the emergency phone number in the UK. You can also dial 112, which is the ambulance number throughout the European Union.";
+			text['contact'] = titlestyle+"<b>Contact Us</b></span><br><br><b>Bromley by Bow Health Centre</b><br><b>Telephone:</b> 0844 815 1020<br><br><b>St Andrew's Health Centre</b><br><b>Telephone:</b> 0208 980 1888<br><br><b>XX Place</b><br><b>Telephone:</b> 0844 815 1020<br><br>";
+			text['emergency'] = titlestyle+"<b>Emergency Care</b></span><br>If you need urgent advice, <br>ring the out of hours service on <br><b>020 7377 7151</b>.<br>You may wish to contact NHS Direct either by phone on <b>0845 4647</b> or online at <a href='http://www.nhsdirect.nhs.uk'>www.NHSDirect.nhs.uk</a> .<br>If an <u>ambulance is needed</u>, call 999, the emergency phone number in the UK. You can also dial 112, which is the ambulance number throughout the European Union.";
 			text['careers'] = titlestyle+"<b>Careers</b></span><br><br><br><br>Brief information on careers<br>To find out about careers <a href='careers.html'>CLICK HERE</a>";
 			
 			function slide(index) {

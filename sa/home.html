@@ -2,10 +2,60 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns = "http://www.w3.org/1999/xhtml">
 	<head>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> <link rel="shortcut icon" href="images/logo.png" type="image/png">
 		<title>Welcome to St Andrew's Health Centre</title>
 		<link type="text/css" href="style-default.css" rel="stylesheet"></link>
-		<script src="javascript/slideshow.js"></script>
-		<script src="javascript/leftbarmove.js"></script>
+		
+		<meta name="description" content="Welcome to the St Andrew's Health Centre's Official Website.<br>Telephone: 0208 980 1888<br>Fax: 0208 980 2753">
+		<meta name="keywords" content="st andrew's,st andrews,st andrew,st andrew's health centre,st andrews health centre,st andrew health centre,bbbhp,bromley by bow health Partnership,health,clinic,surgery,hospital,nhs,london health">
+		<meta name="author" content="Bromley by Bow Health Partnership">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		
+		<script type="text/javascript">
+			var text = new Array();
+			var link = new Array();
+
+			text[1] = "Welcome to St. Andrew's Health Centre";
+			text[2] = "Building overview";
+			text[3] = "Green Light Pharmacy";
+			text[4] = "St. Andrew's entrance";
+			text[5] = "Reception area";
+			text[6] = "St. Andrew's building";
+
+			link[1] = "#";
+			link[2] = "#";
+			link[3] = "#";
+			link[4] = "#";
+			link[5] = "#";
+			link[6] = "#";
+
+			var min = 1;
+			var max = 6;
+			var slidenumber = 0;
+			var milliseconds = 4000;
+			var timer;
+
+			sliding();
+			function sliding() {
+				setTimeout(function(){
+				document.getElementById('slideimage').src = "images/slide"+ slidenumber +".png";
+				document.getElementById('slideshowtext').innerHTML = text[slidenumber];
+				document.getElementById('slideshowlink').href = link[slidenumber];}, 1);
+				if (slidenumber < max && slidenumber >= min-1){slidenumber++; stop();}
+				else if (slidenumber < min-1){slidenumber = max;}
+				else {slidenumber = min;}
+				timer = setTimeout("sliding()", milliseconds);
+			}
+
+			function select(num) {
+					stop(); slidenumber = num-1; sliding();
+				}
+
+			function stop(){clearTimeout(timer);}
+			function next(){stop(); sliding();}
+			function prev(){stop(); slidenumber = slidenumber-2; sliding();}
+		</script>
+		
 	</head>
 	<body>
 		<div id="holder">
@@ -19,6 +69,7 @@
 			
 			<div id="topbar">
 				<div class="topnav">
+					<script src="../javascript/leftbarmove.js"></script>
 					<ul>
 						<li onMouseOver="movedown();" onMouseOut="moveup();"><a href="home.html">Home</a>
 							<ul>
@@ -110,7 +161,7 @@
 				<div id="rightbar">
 					
 					<div id="times">
-						<script src="javascript/rightbarinfo.js"></script>
+						<script src="../javascript/rightbarinfo-sa.js"></script>
 					</div>
 					
 				</div> <!-- Close rightbar div -->
@@ -157,7 +208,7 @@
 				<br /><br />
 				
 				<div id="footerinfo">
-					<script src="javascript/footerinfo.js"></script>
+					<script src="../javascript/footerinfo.js"></script>
 				</div>
 				
 				<p>&copy; Bromley by Bow Health Partnership</p>

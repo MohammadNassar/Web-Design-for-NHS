@@ -5,6 +5,7 @@ ____________________
 DONE
  - To make proper spaces between phone & fax numbers in index page in contact div.
 ____________________
+DONE
  - To manage styling of the 'notfound' page when accessed from sites other than the root/index folder.
 ____________________
 DONE
@@ -16,9 +17,10 @@ ____________________
 DONE
  - In 'Adults' page in 'Health Advice' site, to move the last section-div from the left column to the right column.
 ____________________
+DONE
 Only done in index page, but still under development!!
 
- - To add a browser tab icon in all webpages using the following code:
+ - To add a browser tab icon-->(favicon) in all webpages using the following code:
 ----------
 <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
 ----------
@@ -26,6 +28,7 @@ Source:
 How to add a browser tab icon for a website?:
 http://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-for-a-website
 ____________________
+DONE
 Done - Has been put in a div, but will needs more details!!
 
  - In 'Adults' page in 'Health Advice' site, to manage the link in the top of the page.

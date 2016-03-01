@@ -2,9 +2,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns = "http://www.w3.org/1999/xhtml">
 	<head>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> <link rel="shortcut icon" href="images/logo.png" type="image/png">
 		<title>Staff Access - XX Place Surgery</title>
 		<link type="text/css" href="style-default.css" rel="stylesheet"></link>
-		<script src="javascript/leftbarmove.js"></script>
 	</head>
 	<body onload="document.getElementById('name').focus();">
 		<div id="holder">
@@ -18,6 +18,7 @@
 			
 			<div id="topbar">
 				<div class="topnav">
+					<script src="../javascript/leftbarmove.js"></script>
 					<ul>
 						<li onMouseOver="movedown();" onMouseOut="moveup();"><a href="home.html">Home</a>
 							<ul>
@@ -78,9 +79,9 @@
 					
 					<form action="staffaccess-php.php" method="POST" onsubmit="">
 						
-						<script src="javascript/staffaccess.js"></script>
+						<script src="../javascript/staffaccess-xxp.js"></script>
 						
-						<table id="validation" style="width: 550px;margin-left:-10px; visibility:visible;">
+						<table id="validation" style="width: 550px; margin-top:15px; visibility:visible;">
 						
 							<tr><td width="20%"> <b>Name:</b> </td> <td width="25%"> <input type="text" name="name" id="name" onkeypress="return runScript(event);" size="15" /> </td> <td></td> </tr>
 							
@@ -133,7 +134,7 @@
 				<div id="rightbar">
 					
 					<div id="times">
-						<script src="javascript/rightbarinfo.js"></script>
+						<script src="../javascript/rightbarinfo-xxp.js"></script>
 					</div>
 					
 				</div> <!-- Close rightbar div -->
@@ -180,7 +181,7 @@
 				<br /><br />
 				
 				<div id="footerinfo">
-					<script src="javascript/footerinfo.js"></script>
+					<script src="../javascript/footerinfo.js"></script>
 				</div>
 				
 				<p>&copy; Bromley by Bow Health Partnership</p>

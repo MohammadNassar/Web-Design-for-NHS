@@ -2,9 +2,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns = "http://www.w3.org/1999/xhtml">
 	<head>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> <link rel="shortcut icon" href="images/logo.png" type="image/png">
 		<title>Contact Us - XX Place Surgery</title>
 		<link type="text/css" href="style-default.css" rel="stylesheet"></link>
-		<script src="javascript/leftbarmove.js"></script>
 	</head>
 	<body>
 		<div id="holder">
@@ -18,6 +18,7 @@
 			
 			<div id="topbar">
 				<div class="topnav">
+					<script src="../javascript/leftbarmove.js"></script>
 					<ul>
 						<li onMouseOver="movedown();" onMouseOut="moveup();"><a href="home.html">Home</a>
 							<ul>
@@ -76,20 +77,60 @@
 				<div id="content">
 									<div class="directory"> <a href="home.html">Home</a> <div class="arrow"></div> Contact </div> <!-- Close directory div -->
 					
-					<h4 style="color:red;margin-bottom:0px;"><b>Please note: you cannot use this contact form to request prescriptions or emergency medical treatments.<br>Thank you..</b></h4>
+					<h4><b>Please note: you cannot use this contact form to request prescriptions or emergency medical treatments.<br>Thank you..</b></h4>
 					
-					<form action="contactform.php" method="POST">
-						<table border="1" style="width: 95%; background-color: #eeeeee; border: white; border-collapse: collapse; font-weight: bold;">
-							<tr> <td>Name:</td> <td> <input type="text" name="name" size="30" /> </td> </tr>
-							<tr> <td>Email Address:</td> <td> <input type="text" name="email" size="30" /> </td> </tr>
-							<tr> <td>Phone Number:</td> <td> <input type="text" name="phone" size="30" /> </td> </tr>
-							<tr> <td>Subject:</td> <td> <select name="subject" style="font-size:11pt; font-weight:bold;">
+					<form action="contactform.php" method="POST" onsubmit="return checkform();">
+						<script type="text/javascript">
+							function checkform() {
+								var sendMessage = true;
+								var warningText = "";
+								if (document.getElementById('name').value == '') {
+									document.getElementById('warning-name').style.background = 'salmon';
+									warningText += "<li>Please enter your name!</li>";
+									sendMessage = false;
+								}
+								else {
+									document.getElementById('warning-name').style.background = '';
+									sendMessage = true;
+								}
+								if (document.getElementById('email').value == '' && document.getElementById('phone').value == '') {
+									document.getElementById('warning-email').style.background = 'lightsalmon';
+									document.getElementById('warning-phone').style.background = 'lightsalmon';
+									warningText += "<li>Please enter EITHER your E-mail or Phone Number!</li>";
+									sendMessage = false;
+								}
+								else {
+									document.getElementById('warning-email').style.background = '';
+									document.getElementById('warning-phone').style.background = '';
+									sendMessage = true;
+									}
+								if (document.getElementById('message').value == '') {
+									document.getElementById('warning-message').style.background = 'salmon';
+									warningText += "<li>Please type your Message.</li>";
+									sendMessage = false;
+								}
+								else {
+									document.getElementById('warning-message').style.background = '';
+									sendMessage = true;
+								}
+								document.getElementById('warning-text').innerHTML = warningText;
+								return sendMessage;
+							}
+						</script>
+						<h5 style="background-color: lightsalmon; border-radius: 5px;">
+							<div id="warning-text" style="margin-left: 10px;"></div>
+						</h5>
+						<table border="1" style="width: 100%; background-color: #eeeeee; border: white; border-collapse: collapse; font-weight: bold;">
+							<tr> <td>Name:</td> <td id="warning-name"> <input type="text" id="name" name="name" size="30" /> </td> </tr>
+							<tr> <td>Email Address:</td> <td id="warning-email"> <input type="text" id="email" name="email" size="30" /> </td> </tr>
+							<tr> <td>Phone Number:</td> <td id="warning-phone"> <input type="text" id="phone" name="phone" size="30" /> </td> </tr>
+							<tr> <td>Subject:</td> <td> <select id="" name="subject" style="font-size:11pt; font-weight:bold;">
 															<option value="request">Request</option>
 															<option value="suggestion">Suggestion</option>
 															<option value="complaint">Complaint</option>
 														</select> </td> </tr>
 							<tr> <td colspan="2">Your Message:</td> </tr>
-							<tr> <td colspan="2"> <textarea name="message" rows="8" cols="53"></textarea> </td> </tr>
+							<tr> <td colspan="2" id="warning-message"> <textarea id="message" name="message" rows="8" cols="53"></textarea> </td> </tr>
 							<tr align="center"> <td colspan="2"> <input type="submit" value="Send" style="font-size: 12pt; font-weight: bold; width:80px;" /> &nbsp; <input type="reset" value="Clear" style="font-size: 12pt; font-weight: bold; width:80px;" onclick="return call(); function call(){return confirm('Are you sure you want to clear the form?');}" /> </td> </tr>
 						</table>
 					</form>
@@ -99,7 +140,7 @@
 				<div id="rightbar">
 					
 					<div id="times">
-						<script src="javascript/rightbarinfo.js"></script>
+						<script src="../javascript/rightbarinfo-xxp.js"></script>
 					</div>
 					
 				</div> <!-- Close rightbar div -->
@@ -146,7 +187,7 @@
 				<br /><br />
 				
 				<div id="footerinfo">
-					<script src="javascript/footerinfo.js"></script>
+					<script src="../javascript/footerinfo.js"></script>
 				</div>
 				
 				<p>&copy; Bromley by Bow Health Partnership</p>
